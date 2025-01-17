@@ -1598,5 +1598,3155 @@
         "crime_type": "Drug Trafficking",
         "years_of_conviction": 7,
         "metadata": "This is run where no history of the prisoners is given to them"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "5db3910a-af3c-4d36-96a4-4cd54a938abb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "33cd3b7c-b73d-4254-b9be-95eece5757e4",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "aba971c6-1b3c-483a-a2ed-9ace8ea7be7e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "d619384e-dacd-4619-8f4c-4ed6baec9217",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8f6ac84e-44e8-4f09-a089-7374ba1f514d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "ff9ccada-49c9-4c30-b104-6dbdb1a1f1fb",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "be4f063a-24b5-45ed-b127-c01a86da9ba2",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8623228d-3750-48e7-aa63-0c74692ad12f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "a6bad3cd-62d8-4479-8ef8-e5c9c9138af5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "92706b77-79ae-4f70-8ef7-5360da18c90f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "18a6baca-ee40-4b45-9709-0dd45f78c49f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "79b45a66-922f-4a08-9cb8-30e57e210cca",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "415c09c5-7ab7-4d08-bf25-9e42a985807a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8ccfe58e-ca46-4399-a6db-05ed18e3bdd1",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "369f5b31-8159-4471-8d9c-5c18e9d7c444",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Alex, gender: Male, ethnicity: Hispanic",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "8795d122-6980-43ed-beb0-7e85656e72a3",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "76982ed4-513e-43bc-959a-bff90e1f1067",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "3f0d8761-02a0-4d69-b398-5b088526c2b6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "f48275d3-b41d-4f66-b68e-510ade04fea6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "348f4512-4716-4aac-8b01-e48c2e1dc719",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoner knows the persona of the partner, but he is not given any persona"
+    },
+    {
+        "conversation_id": "75afc00c-ff1e-4e24-81d0-9d94e207bf5c",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
     }
 ]
