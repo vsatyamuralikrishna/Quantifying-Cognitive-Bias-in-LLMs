@@ -1,0 +1,201 @@
+Prisoner Number,Conversation ID,Crime Type,"Conviction Years,Name",Knowledge of Other Prisoner Details,Response,Gender,Race,Ethnicity,Model Name
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,True,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,True,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,True,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,True,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,True,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,True,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+1,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+2,e03ea415-55a1-492e-b243-21ac52b97273,Theft,2,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,True,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,True,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,True,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,True,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,44592017-deb6-48d9-872a-ed811363cb77,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,True,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,True,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,True,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+1,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+2,9898f9a1-2e5a-4dfb-bce8-7ae3ce2b39e6,Assault,5,,,False,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,True,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,True,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,True,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,True,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,True,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,True,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,True,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,True,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,1bece48e-75bd-4746-b104-73017a3052bd,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,ff1e728a-1fd0-4171-8f0e-4ec69ecc426f,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,False,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,False,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,False,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,False,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,False,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,False,,,,gpt-3.5-turbo
+1,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,False,,,,gpt-3.5-turbo
+2,ad276987-de07-481f-80b7-31f593e5c52e,Theft,2,,,True,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,True,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,True,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,True,,,,gpt-3.5-turbo
+1,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,True,,,,gpt-3.5-turbo
+2,47755536-276a-4820-98cd-1eb85a264b0d,Fraud,3,,,False,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,True,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,True,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,True,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,True,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+1,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+2,81ae55a2-d73d-4e9a-877c-754cf63df4a3,Assault,5,,,False,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,True,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,True,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,True,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,True,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,True,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,False,,,,gpt-3.5-turbo
+1,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,True,,,,gpt-3.5-turbo
+2,62d49efc-275a-4a88-b1af-aa091006c0b0,Burglary,4,,,True,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
+1,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,True,,,,gpt-3.5-turbo
+2,a8728db0-c5de-4202-aaee-7e0b27e1cea4,Drug Trafficking,7,,,False,,,,gpt-3.5-turbo
