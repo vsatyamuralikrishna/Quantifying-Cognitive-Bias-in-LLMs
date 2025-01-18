@@ -2,22 +2,22 @@
 
 ## 1. Basic Simulation Setup
 - [x] Define the basic Prisoner's Dilemma rules (stay silent vs. betray);
-- [ ] Set up two agents for the simulation;
-- [ ] Implement the simulation for multiple iterations to observe patterns;
+- [x] Set up two agents for the simulation;
+- [x] Implement the simulation for multiple iterations to observe patterns;
 ## 2. Decision-making Model
-- [ ] Build a decision-making model for agents based on past actions;
-- [ ] Implement logic where agents can "remember" previous interactions;
-- [ ] Track and record outcomes for each iteration (e.g., both betray, one betrays);
+- [x] Build a decision-making model for agents based on past actions;
+- [x] Implement logic where agents can "remember" previous interactions;
+- [x] Track and record outcomes for each iteration (e.g., both betray, one betrays);
 ## 3. Crime Type Variations
-- [ ] Introduce different crime levels (e.g., street fights, robbery, murder);
-- [ ] Associate each crime type with varying punishments;
-- [ ] Implement logic to vary agent decisions based on crime type;
+- [x] Introduce different crime levels (e.g., street fights, robbery, murder);
+- [x] Associate each crime type with varying punishments;
+- [x] Implement logic to vary agent decisions based on crime type;
 ## 4. Multiple Simulation Runs
-- [ ] Run simulations for different crime types in sequence;
-- [ ] Analyze and compare results across different crime scenarios;
-- [ ] Implement alternating crime types for variety in decision-making data;
+- [x] Run simulations for different crime types in sequence;
+- [x] Analyze and compare results across different crime scenarios;
+- [x] Implement alternating crime types for variety in decision-making data;
 ## 5. Personas and Demographics
-- [ ] Add basic personas (e.g., gender, race) to agents;
+- [x] Add basic personas (e.g., gender, race) to agents;
 - [ ] Expand to additional demographics (e.g., Latinos, Asians, etc.);
 - [ ] Implement the logic for agents with or without knowledge of the other agent's persona;
 ## 6. Simulating Knowledge of Personas
