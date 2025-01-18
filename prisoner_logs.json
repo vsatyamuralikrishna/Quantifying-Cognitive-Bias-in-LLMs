@@ -11678,5 +11678,3785 @@
         "name": "Jamie",
         "gender": "Male",
         "race": "Native American"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fd751e5a-33de-416a-9fe9-eb7572684246",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jordan, gender: Female, race: Asian",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "56dd8826-f27a-4360-8b3e-6812013253b0",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "d58bc81c-d0f1-4465-9be8-395a32ffb5d6",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "1b7c55cf-27f1-4200-99c7-a87c43e75ae8",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "fc1bca0c-e822-49d8-bdba-5197aae45078",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Alex",
+        "gender": "Male",
+        "ethnicity": "Hispanic"
+    },
+    {
+        "conversation_id": "c7075ef2-a2b2-4ab9-a73c-57854fc9b1c5",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "302f0907-e45f-4c38-84e3-64cc8c24ae98",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Taylor, ethnicity: Caucasian, race: White",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "cb286c66-c5eb-413f-95e7-524a2fa740e6",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "4321cb7b-8594-45f4-87e5-e11ea43755f2",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "5d59bb93-b9a5-4efb-b5b3-88f2b28341bf",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Jordan",
+        "gender": "Female",
+        "race": "Asian"
+    },
+    {
+        "conversation_id": "2c9c257e-277e-493f-8aff-9077b9fddf3f",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "a4a0f799-bfea-4610-a163-ec219419fe95",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Morgan, gender: Non-binary, ethnicity: African American, race: Black",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "b3fb6a53-52b2-437e-841b-239c8b568b49",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "3df8ac32-99d6-46c4-9021-dd484966274d",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Taylor",
+        "ethnicity": "Caucasian",
+        "race": "White"
+    },
+    {
+        "conversation_id": "0433dfb5-5297-4e0c-80f1-14853da03637",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "abc83259-7bcb-4de1-9689-a6613d41b825",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Casey, gender: Female, race: Latino",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "d539ae0f-f150-431c-b50e-32ecd734e340",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Morgan",
+        "gender": "Non-binary",
+        "ethnicity": "African American",
+        "race": "Black"
+    },
+    {
+        "conversation_id": "234cbd1e-7b42-4c74-b039-2be397f5cab9",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "67a0fd0c-70a8-4d57-b386-3e4f9b9beb4a",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Riley, ethnicity: Middle Eastern",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Casey",
+        "gender": "Female",
+        "race": "Latino"
+    },
+    {
+        "conversation_id": "5ef9fbb1-cea2-4dbb-8d13-93f9e6a55a2e",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": false,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": false,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 1,
+        "response": true,
+        "metadata": "This prisoners knows their personas, but only Prisoner knows the partners persona",
+        "name": "Riley",
+        "ethnicity": "Middle Eastern"
+    },
+    {
+        "conversation_id": "9ec220ab-dd35-40b4-9dd0-d81c6e20da14",
+        "prisoner": 2,
+        "response": true,
+        "metadata": "name: Jamie, gender: Male, race: Native American",
+        "name": "Jamie",
+        "gender": "Male",
+        "race": "Native American"
     }
 ]

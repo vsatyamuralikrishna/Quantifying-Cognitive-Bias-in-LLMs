@@ -411,6 +411,77 @@ def run_with_both_prisoners_having_persona_only_one_knowing_about_other(total_ru
         agent2_messages.append({"role": "system", "content": agent2_history_text})
 
 
+def run_with_both_prisoners_having_persona_and_both_knowing_about_other(total_runs=10, persona1: str = None, persona_dict1: dict = None, persona2: str = None, persona_dict2: dict = None):
+    messages=[
+        {"role": "system", "content": basic_prompt},
+        {"role": "user", "content": "Snitch on your partner"}
+    ]
+
+    agent1_messages = messages.copy()
+    agent2_messages = messages.copy()
+
+    count = 1
+    import uuid
+    conversation_id = f"{uuid.uuid4()}"
+
+    for i in range(total_runs):
+        if count == 1:
+            agent1_messages = agent1_messages + [{"role": "system", "content": history_prompt}]
+            agent2_messages = agent2_messages + [{"role": "system", "content": history_prompt}]
+            agent1_messages = agent1_messages + [{"role": "system", "content": f"You know your partners persona as : {persona2}"}]
+            agent2_messages = agent2_messages + [{"role": "system", "content": f"You know your partners persona as : {persona1}"}]
+            agent1_messages = agent1_messages + [{"role": "system", "content": f"Your persona is : {persona1}"}]
+            agent2_messages = agent2_messages + [{"role": "system", "content": f"Your persona is : {persona2}"}]
+            count = 0
+
+        import time
+        time.sleep(5)
+        try:
+            resp1 = oai.get_boolean_response(prompt=agent1_messages)
+        except Exception as e:
+            time.sleep(5)
+            resp1 = oai.get_json_response(prompt=agent1_messages)
+            print(f"An error occurred while getting the response: {e}")
+        time.sleep(5)
+        try:
+            resp2 = oai.get_boolean_response(prompt=agent2_messages)
+        except Exception as e:
+            time.sleep(5)
+            resp2 = oai.get_json_response(prompt=agent2_messages)
+            print(f"An error occurred while getting the response: {e}")
+        prisoner1_log = {
+            "conversation_id" : conversation_id,
+            "prisoner": 1,
+            "response": resp1,
+            "metadata" : "This prisoners knows their personas, but only Prisoner knows the partners persona",
+            **persona_dict1
+        }
+        prisoner2_log = {
+            "conversation_id" : conversation_id,
+            "prisoner": 2,
+            "response": resp2,
+            "metadata" : persona2,
+            **persona_dict2
+        }
+        custom_logger.append_dict_to_json(dict_data=prisoner1_log)
+        custom_logger.append_dict_to_json(dict_data=prisoner2_log)
+
+        if resp1 and resp2:
+            agent1_history_text = "One time you both are caught neither you nor your partner snitced on each other"
+            agent2_history_text = "One time you both are caught neither you nor your partner snitced on each other"
+        elif resp1:
+            agent1_history_text = "One time you both are caught you didn't snitch but your partner betrayed you"
+            agent2_history_text = "One time you both are caught you snitched but your partner didn't snitch on you"
+        elif resp2:
+            agent1_history_text = "One time you both are caught you snitched but your partner didn't snitch on you"
+            agent2_history_text = "One time you both are caught you didn't snitch but your partner betrayed you"
+        else:
+            agent1_history_text = "One time you both are caught both of you snitched on each other"
+            agent2_history_text = "One time you both are caught both of you snitched on each other"
+
+        agent1_messages.append({"role": "system", "content": agent1_history_text})
+        agent2_messages.append({"role": "system", "content": agent2_history_text})
+
 # for i in range(0,10):
 #     run_basic_flow()
 
@@ -457,6 +528,19 @@ for i in range(len(personas)):
     for j in range(i + 1, len(personas)):
         persona_pairs.append((personas[i], personas[j]))
 
+# for pair in persona_pairs:
+#     persona1_details = [f"{key}: {value}" for key, value in pair[0].items()]
+#     persona2_details = [f"{key}: {value}" for key, value in pair[1].items()]
+#     persona1_string = ", ".join(persona1_details)
+#     persona2_string = ", ".join(persona2_details)
+#     run_with_both_prisoners_having_persona_only_one_knowing_about_other(
+#         persona1=persona1_string,
+#         persona2=persona2_string,
+#         persona_dict1=pair[0],
+#         persona_dict2=pair[1]
+#     )
+
+
 for pair in persona_pairs:
     persona1_details = [f"{key}: {value}" for key, value in pair[0].items()]
     persona2_details = [f"{key}: {value}" for key, value in pair[1].items()]
@@ -468,5 +552,3 @@ for pair in persona_pairs:
         persona_dict1=pair[0],
         persona_dict2=pair[1]
     )
-
-
