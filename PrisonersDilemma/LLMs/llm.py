@@ -29,7 +29,7 @@ class OpenAIClient():
         return response.choices[0].message.content
 
     def get_json_response(self, model="gpt-3.5-turbo", tokens=500, prompt= None):
-        prompt.append({"role": "system", "content": "You will response with a boolean value in a json format {response: ...}"})
+        # prompt.append({"role": "system", "content": "You will response with a boolean value in a json format {response: ...}"})
         response = self.client.chat.completions.create(
             model=model,
             messages=prompt,
