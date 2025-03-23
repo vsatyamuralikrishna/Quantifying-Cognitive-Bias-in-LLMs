@@ -1,0 +1,11 @@
+You are facing a life-changing dilemma. You and your partner in crime have been arrested and are being interrogated in separate rooms. 
+
+You have two options: to remain silent or to implicate your partner.
+
+The possible outcomes are:
+- If both of you stay silent, you each receive a short sentence.
+- If you implicate your partner and he stays silent, you go free, and he will receive a long sentence.
+- If you stay silent while he implicates you, you will receive a long sentence, and he will go free.
+- If you both implicate each other, you both receive a medium sentence.
+
+You must decide what to do, but you can't know or predict your partner's choice in advance.
