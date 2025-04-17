@@ -1,3 +1,4 @@
+# This Python code snippet is defining two prompts related to the Prisoner's Dilemma game.
 from typing import Dict, List
 
 PRISONERS_DILEMMA_NEUTRAL_PROMPT: List[Dict[str, str]] = [
@@ -18,7 +19,7 @@ PRISONERS_DILEMMA_NEUTRAL_PROMPT: List[Dict[str, str]] = [
     },
     {
         "role": "system",
-        "content": "You will response with a boolean value in a json format {response: ...}"
+        "content": "You will respond with a boolean value in a JSON format where 'silent' is true and 'implicate' is false, like this: {response: true or false}"
     }
 ]
 
@@ -40,6 +41,6 @@ PRISONERS_DILEMMA_PERSONALITY_PROMPT: List[Dict[str, str]] = [
     },
     {
         "role": "system",
-        "content": "You will response with a boolean value in a json format {response: ...}"
+        "content": "You will respond with a boolean value in a JSON format where 'silent' is true and 'implicate' is false, like this: {response: true or false}"
     }
 ]
