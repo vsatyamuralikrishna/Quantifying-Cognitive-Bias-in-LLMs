@@ -1,5 +1,6 @@
 import json
 import uuid
+import time
 from pathlib import Path
 from typing import List
 from tqdm import tqdm
@@ -11,9 +12,6 @@ from qcbai.utils.visualizer import plot_prompt_result, plot_model_summary
 
 
 def load_prompt_files(prompt_dir: Path) -> List[Path]:
-    """
-    Load all .json prompt files from a directory.
-    """
     return list(prompt_dir.glob("*.json"))
 
 
@@ -24,13 +22,21 @@ def run_prompt_with_model(
     runs: int,
     temperature: float,
 ) -> ExperimentResult:
-    """
-    Run a single prompt N times through a given model.
-    """
     responses = []
-    for _ in range(runs):
+    for i in range(runs):
+        start_time = time.time()
         output = runner.run_prompt(prompt_data["prompt"], temperature=temperature)
-        responses.append(output.get("text", ""))
+        end_time = time.time()
+
+        responses.append({
+            "id": str(uuid.uuid4()),
+            "response_text": output.get("text", ""),
+            "response": output.get("response", None),
+            "decision": output.get("decision", ""),
+            "reason": output.get("reason", ""),
+            "response_time": round(end_time - start_time, 4),
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+        })
 
     return create_result_entry(
         model_slug=runner.get_slug(),
@@ -48,26 +54,29 @@ def run_prompt_with_model(
 
 
 def save_result(result: ExperimentResult, results_dir: Path, combined_path: Path):
-    """
-    Save a single result to its own file and append to all_results.json.
-    """
     results_dir.mkdir(parents=True, exist_ok=True)
     combined_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # ✅ Save individual JSON result
-    file_name = f"{result.model_name}__{result.prompt_id}.json"
-    with open(results_dir / file_name, "w") as f:
+    # Save individual result
+    filename = f"{result.model_name}__{result.prompt_id}.json"
+    with open(results_dir / filename, "w") as f:
         json.dump(result.dict(), f, indent=2)
 
-    # ✅ Append to all_results.json (without deduplication)
-    if combined_path.exists():
+    # Load or initialize combined results
+    try:
         with open(combined_path, "r") as f:
             combined_data = json.load(f)
-    else:
+    except (FileNotFoundError, json.JSONDecodeError):
         combined_data = []
 
+    # Ensure combined_data is a list
+    if not isinstance(combined_data, list):
+        combined_data = []
+
+    # Append new result
     combined_data.append(result.dict())
 
+    # Save combined results
     with open(combined_path, "w") as f:
         json.dump(combined_data, f, indent=2)
 
@@ -82,40 +91,19 @@ def run_all_experiments(
     runs: int = 100,
     temperature: float = 0.7,
 ):
-    """
-    Run all prompts through all model runners and save full structured results + plots.
-    """
     prompt_files = load_prompt_files(prompt_dir)
     print(f"📋 Loaded {len(prompt_files)} prompts and {len(model_runners)} models")
 
     for runner in model_runners:
-        model_name = runner.get_name()
-        print(f"\n🧪 Running: {model_name}")
+        print(f"\n🧪 Running: {runner.get_name()}")
         model_results = []
 
         for prompt_path in tqdm(prompt_files, desc=f"Model: {runner.get_slug()}"):
             with open(prompt_path, "r") as f:
                 prompt_data = json.load(f)
 
-            # Run the model on this prompt
-            result = run_prompt_with_model(
-                runner,
-                model_type,
-                prompt_data,
-                runs,
-                temperature
-            )
-
-            # Save the result (individual + combined)
+            result = run_prompt_with_model(runner, model_type, prompt_data, runs, temperature)
             save_result(result, results_dir, all_results_file)
-
-            # 📊 Plot for this prompt
-            plot_prompt_result(
-                prompt_id=result.prompt_id,
-                model_slug=result.model_name,
-                implicate=round((1 - result.trust_estimate_probability_distribution) * 100, 1),
-                silent=round(result.trust_estimate_probability_distribution * 100, 1)
-            )
 
             model_results.append({
                 "prompt_id": result.prompt_id,
@@ -123,7 +111,13 @@ def run_all_experiments(
                 "silent_percent": round(result.trust_estimate_probability_distribution * 100, 1)
             })
 
-        # 📊 Summary chart for model
+            plot_prompt_result(
+                prompt_id=result.prompt_id,
+                model_slug=runner.get_slug(),
+                implicate=model_results[-1]["implicate_percent"],
+                silent=model_results[-1]["silent_percent"]
+            )
+
         plot_model_summary(runner.get_slug(), model_results)
 
     print(f"\n✅ All results saved to '{results_dir}' and plots to '{images_dir}'")

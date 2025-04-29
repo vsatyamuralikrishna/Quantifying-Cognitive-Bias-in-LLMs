@@ -1,112 +1,57 @@
-import os
-import requests
-import subprocess
-import yaml
 import platform
 from typing import List, Dict, Any
-from pathlib import Path
 from qcbai.llm.base import ModelRunner
+from pathlib import Path
+import yaml
+import ollama  # ✅ Requires `pip install ollama`
 
-# Ollama server URL
-OLLAMA_SERVER_URL = os.getenv("OLLAMA_SERVER_URL", "http://localhost:11434")
-
-# Use the shared config file in llm/
+# Load YAML config from the same directory
 MODEL_CONFIG_PATH = Path(__file__).parent / "models.yaml"
 
 
 class OllamaModel(ModelRunner):
     """
-    Adapter for running prompts through Ollama models hosted locally.
+    Model runner that uses the Ollama Python client directly (no server call).
     """
 
-    def __init__(self, model_name: str):
-        self.model_name = model_name
+    def __init__(self, name: str, slug: str, temperature: float = 0.7):
+        self.name = name
+        self.slug = slug
+        self.temperature = temperature
 
     def get_name(self) -> str:
-        return self.model_name
+        return self.name
 
-    def run_prompt(self, messages: List[Dict], temperature: float = 0.7) -> Dict[str, Any]:
-        url = f"{OLLAMA_SERVER_URL}/api/chat"
-        payload = {
-            "model": self.model_name,
-            "messages": messages,
-            "stream": False,
-            "options": {
-                "temperature": temperature,
-            }
+    def get_slug(self) -> str:
+        return self.slug
+
+    def get_metadata(self) -> Dict[str, Any]:
+        return {
+            "temperature": self.temperature
         }
 
+    def run_prompt(self, messages: List[Dict[str, str]], temperature: float = 0.7) -> Dict[str, Any]:
+        """
+        Runs prompt using the Ollama Python client.
+        """
         try:
-            response = requests.post(url, json=payload)
-            response.raise_for_status()
-            data = response.json()
+            response = ollama.chat(
+                model=self.name,
+                messages=messages,
+                options={"temperature": temperature}
+            )
             return {
-                "text": data.get("message", {}).get("content", ""),
-                "raw": data
+                "text": response.get("message", {}).get("content", ""),
+                "raw": response
             }
-        except requests.exceptions.RequestException as e:
+        except Exception as e:
             return {
                 "text": "",
                 "error": str(e)
             }
 
 
-def load_model_config() -> List[str]:
-    """
-    Loads Ollama model names from the unified models.yaml config.
-    Supports structured entries with `name`, `slug`, and `temperature`.
-    """
-    if not MODEL_CONFIG_PATH.exists():
-        print(f"⚠️ Model config not found at {MODEL_CONFIG_PATH}")
-        return []
-
-    with open(MODEL_CONFIG_PATH, "r") as f:
-        config = yaml.safe_load(f)
-
-    models = config.get("ollama", [])
-
-    model_names = []
-    for entry in models:
-        if isinstance(entry, dict) and "name" in entry:
-            model_names.append(entry["name"])
-        elif isinstance(entry, str):
-            model_names.append(entry)
-        else:
-            print(f"⚠️ Skipping invalid Ollama model entry: {entry}")
-
-    return model_names
-
-
-def check_local_models() -> List[str]:
-    """
-    Queries the Ollama server for available local models.
-    """
-    try:
-        response = requests.get(f"{OLLAMA_SERVER_URL}/api/tags")
-        response.raise_for_status()
-        return [model.get("name") for model in response.json().get("models", [])]
-    except Exception as e:
-        print(f"Could not fetch local Ollama models: {e}")
-        return []
-
-
-def pull_model(model_name: str) -> bool:
-    """
-    Pulls the model using `ollama pull`. Returns success status.
-    """
-    print(f"Pulling missing Ollama model: {model_name}")
-    try:
-        subprocess.run(["ollama", "pull", model_name], check=True)
-    except subprocess.CalledProcessError:
-        print(f"Failed to pull Ollama model: {model_name} — skipping.")
-        return False
-    return True
-
-
 def detect_gpu_backend() -> str:
-    """
-    Detects the platform-specific backend Ollama is expected to use.
-    """
     system = platform.system()
     if system == "Darwin":
         return "Metal (Apple Silicon)"
@@ -116,29 +61,31 @@ def detect_gpu_backend() -> str:
         return "CPU fallback or unknown system"
 
 
-def get_ollama_models() -> List[ModelRunner]:
+def load_ollama_model_configs() -> List[OllamaModel]:
     """
-    Loads Ollama models from config, ensures they are available,
-    and wraps them as ModelRunner instances.
+    Parses `models.yaml` and returns a list of OllamaModel instances.
     """
-    backend = detect_gpu_backend()
-    print(f"Ollama is expected to use: {backend}")
+    if not MODEL_CONFIG_PATH.exists():
+        print(f"⚠️ Model config not found at {MODEL_CONFIG_PATH}")
+        return []
 
-    config_models = load_model_config()
-    local_models = check_local_models()
+    with open(MODEL_CONFIG_PATH, "r") as f:
+        config = yaml.safe_load(f)
 
+    models = config.get("ollama", [])
     runners = []
-    for model_name in config_models:
-        if model_name not in local_models:
-            if not pull_model(model_name):
-                continue
-        runners.append(OllamaModel(model_name))
+
+    for entry in models:
+        if isinstance(entry, dict):
+            name = entry.get("name")
+            slug = entry.get("slug", name.replace(":", "-").replace("/", "-").lower())
+            temp = entry.get("temperature", 0.7)
+            runners.append(OllamaModel(name=name, slug=slug, temperature=temp))
+        else:
+            print(f"⚠️ Invalid config entry: {entry}")
 
     return runners
 
-def get_slug(self) -> str:
-    return self.model_name.replace(":", "-").replace("/", "-").lower()
 
-
-# Used by registry
-OLLAMA_MODELS = get_ollama_models()
+# Exported constant used in registry
+OLLAMA_MODELS: List[ModelRunner] = load_ollama_model_configs()
