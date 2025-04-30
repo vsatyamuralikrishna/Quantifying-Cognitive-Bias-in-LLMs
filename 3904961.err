@@ -1,0 +1,60 @@
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
+2025/04/30 02:10:47 routes.go:1231: INFO server config env="map[CUDA_VISIBLE_DEVICES:0,1 GPU_DEVICE_ORDINAL:0,1 HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:2048 OLLAMA_DEBUG:false OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://0.0.0.0:11434 OLLAMA_INTEL_GPU:false OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/groups/tylermillhouse/ollama/home/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NUM_PARALLEL:0 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_SCHED_SPREAD:false ROCR_VISIBLE_DEVICES:0,1 http_proxy: https_proxy: no_proxy:]"
+time=2025-04-30T02:10:47.134-07:00 level=INFO source=images.go:458 msg="total blobs: 31"
+time=2025-04-30T02:10:47.137-07:00 level=INFO source=images.go:465 msg="total unused blobs removed: 0"
+time=2025-04-30T02:10:47.141-07:00 level=INFO source=routes.go:1298 msg="Listening on [::]:11434 (version 0.6.5)"
+time=2025-04-30T02:10:47.144-07:00 level=INFO source=gpu.go:217 msg="looking for compatible GPUs"
+time=2025-04-30T02:10:47.414-07:00 level=INFO source=types.go:130 msg="inference compute" id=GPU-eb27d462-5ec0-8828-9d23-2b9d8d1eb03e library=cuda variant=v12 compute=6.0 driver=12.4 name="Tesla P100-PCIE-16GB" total="15.9 GiB" available="15.6 GiB"
+time=2025-04-30T02:10:47.414-07:00 level=INFO source=types.go:130 msg="inference compute" id=GPU-2a6c5c9e-81b2-efc9-8032-e88149cff179 library=cuda variant=v12 compute=6.0 driver=12.4 name="Tesla P100-PCIE-16GB" total="15.9 GiB" available="15.6 GiB"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0time=2025-04-30T02:10:56.996-07:00 level=INFO source=sched.go:732 msg="new model will fit in available VRAM, loading" model=/groups/tylermillhouse/ollama/home/.ollama/models/blobs/sha256-e796792eba26c4d3b04b0ac5adb01a453dd9ec2dfd83b6c59cbf6fe5f30b0f68 library=cuda parallel=4 required="24.3 GiB"
+time=2025-04-30T02:10:57.191-07:00 level=INFO source=server.go:105 msg="system memory" total="251.2 GiB" free="246.3 GiB" free_swap="0 B"
+time=2025-04-30T02:10:57.194-07:00 level=INFO source=server.go:138 msg=offload library=cuda layers.requested=-1 layers.model=63 layers.offload=63 layers.split=32,31 memory.available="[15.6 GiB 15.6 GiB]" memory.gpu_overhead="0 B" memory.required.full="24.3 GiB" memory.required.partial="24.3 GiB" memory.required.kv="2.5 GiB" memory.required.allocations="[13.4 GiB 10.8 GiB]" memory.weights.total="15.4 GiB" memory.weights.repeating="14.3 GiB" memory.weights.nonrepeating="1.1 GiB" memory.graph.full="1.6 GiB" memory.graph.partial="1.6 GiB" projector.weights="795.9 MiB" projector.graph="1.0 GiB"
+time=2025-04-30T02:10:57.332-07:00 level=WARN source=ggml.go:152 msg="key not found" key=tokenizer.ggml.add_eot_token default=false
+time=2025-04-30T02:10:57.343-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.attention.layer_norm_rms_epsilon default=9.999999974752427e-07
+time=2025-04-30T02:10:57.343-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.rope.local.freq_base default=10000
+time=2025-04-30T02:10:57.343-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.rope.global.freq_base default=1e+06
+time=2025-04-30T02:10:57.343-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.rope.freq_scale default=1
+time=2025-04-30T02:10:57.343-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.mm_tokens_per_image default=256
+time=2025-04-30T02:10:57.352-07:00 level=INFO source=server.go:405 msg="starting llama server" cmd="/usr/bin/ollama runner --ollama-engine --model /groups/tylermillhouse/ollama/home/.ollama/models/blobs/sha256-e796792eba26c4d3b04b0ac5adb01a453dd9ec2dfd83b6c59cbf6fe5f30b0f68 --ctx-size 8192 --batch-size 512 --n-gpu-layers 63 --threads 28 --parallel 4 --tensor-split 32,31 --port 35867"
+time=2025-04-30T02:10:57.354-07:00 level=INFO source=sched.go:451 msg="loaded runners" count=1
+time=2025-04-30T02:10:57.354-07:00 level=INFO source=server.go:580 msg="waiting for llama runner to start responding"
+time=2025-04-30T02:10:57.355-07:00 level=INFO source=server.go:614 msg="waiting for server to become available" status="llm server error"
+time=2025-04-30T02:10:57.373-07:00 level=INFO source=runner.go:816 msg="starting ollama engine"
+time=2025-04-30T02:10:57.373-07:00 level=INFO source=runner.go:879 msg="Server listening on 127.0.0.1:35867"
+time=2025-04-30T02:10:57.510-07:00 level=WARN source=ggml.go:152 msg="key not found" key=general.name default=""
+time=2025-04-30T02:10:57.510-07:00 level=WARN source=ggml.go:152 msg="key not found" key=general.description default=""
+time=2025-04-30T02:10:57.510-07:00 level=INFO source=ggml.go:67 msg="" architecture=gemma3 file_type=Q4_K_M name="" description="" num_tensors=1247 num_key_values=37
+100    56    0     0  100    56      0     55  0:00:01  0:00:01 --:--:--    55time=2025-04-30T02:10:57.608-07:00 level=INFO source=server.go:614 msg="waiting for server to become available" status="llm server loading model"
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 2 CUDA devices:
+  Device 0: Tesla P100-PCIE-16GB, compute capability 6.0, VMM: yes
+  Device 1: Tesla P100-PCIE-16GB, compute capability 6.0, VMM: yes
+load_backend: loaded CUDA backend from /usr/lib/ollama/cuda_v12/libggml-cuda.so
+load_backend: loaded CPU backend from /usr/lib/ollama/libggml-cpu-haswell.so
+time=2025-04-30T02:10:58.134-07:00 level=INFO source=ggml.go:109 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=500,600,610,700,750,800,860,870,890,900,1200 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 CUDA.1.ARCHS=500,600,610,700,750,800,860,870,890,900,1200 CUDA.1.USE_GRAPHS=1 CUDA.1.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+time=2025-04-30T02:10:58.211-07:00 level=INFO source=ggml.go:289 msg="model weights" buffer=CUDA1 size="8.8 GiB"
+time=2025-04-30T02:10:58.211-07:00 level=INFO source=ggml.go:289 msg="model weights" buffer=CPU size="1.1 GiB"
+time=2025-04-30T02:10:58.211-07:00 level=INFO source=ggml.go:289 msg="model weights" buffer=CUDA0 size="7.4 GiB"
+100    56    0     0  100    56      0     27  0:00:02  0:00:02 --:--:--    27100    56    0     0  100    56      0     18  0:00:03  0:00:03 --:--:--    18100    56    0     0  100    56      0     13  0:00:04  0:00:04 --:--:--    13100    56    0     0  100    56      0     10  0:00:05  0:00:05 --:--:--    10100    56    0     0  100    56      0      9  0:00:06  0:00:06 --:--:--     0time=2025-04-30T02:11:03.512-07:00 level=INFO source=ggml.go:388 msg="compute graph" backend=CUDA0 buffer_type=CUDA0
+time=2025-04-30T02:11:03.513-07:00 level=INFO source=ggml.go:388 msg="compute graph" backend=CUDA1 buffer_type=CUDA1
+time=2025-04-30T02:11:03.513-07:00 level=INFO source=ggml.go:388 msg="compute graph" backend=CPU buffer_type=CUDA_Host
+time=2025-04-30T02:11:03.517-07:00 level=WARN source=ggml.go:152 msg="key not found" key=tokenizer.ggml.add_eot_token default=false
+time=2025-04-30T02:11:03.527-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.attention.layer_norm_rms_epsilon default=9.999999974752427e-07
+time=2025-04-30T02:11:03.527-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.rope.local.freq_base default=10000
+time=2025-04-30T02:11:03.527-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.rope.global.freq_base default=1e+06
+time=2025-04-30T02:11:03.527-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.rope.freq_scale default=1
+time=2025-04-30T02:11:03.527-07:00 level=WARN source=ggml.go:152 msg="key not found" key=gemma3.mm_tokens_per_image default=256
+time=2025-04-30T02:11:03.627-07:00 level=INFO source=server.go:619 msg="llama runner started in 6.27 seconds"
+100    56    0     0  100    56      0      7  0:00:08  0:00:07  0:00:01     0100   157    0   101  100    56     12      6  0:00:09  0:00:08  0:00:01     8100   750    0   694  100    56     79      6  0:00:09  0:00:08  0:00:01   133100  1849    0  1793  100    56    182      5  0:00:11  0:00:09  0:00:02   376100  2950    0  2894  100    56    267      5  0:00:11  0:00:10  0:00:01   614100  4049    0  3993  100    56    337      4  0:00:14  0:00:11  0:00:03   854100  5137    0  5081  100    56    396      4  0:00:14  0:00:12  0:00:02  1081100  5744    0  5688  100    56    440      4  0:00:14  0:00:12  0:00:02  1206
+/groups/tylermillhouse/micromamba_envs/myenv/lib/python3.11/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/groups/tylermillhouse/micromamba_envs/myenv/lib/python3.11/site-packages/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/groups/tylermillhouse/micromamba_envs/myenv/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Model: gemma3-27b:   0%|          | 0/79 [00:00<?, ?it/s]
