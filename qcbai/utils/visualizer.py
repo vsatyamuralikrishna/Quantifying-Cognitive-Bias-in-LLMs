@@ -101,7 +101,7 @@ def plot_model_summary(model_slug: str, summaries: list):
             va="center",
             fontsize=8,
             fontweight="bold",
-            color="white"
+            color="black"
         )
 
     # Axis labels & title

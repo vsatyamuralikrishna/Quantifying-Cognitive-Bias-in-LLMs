@@ -1,0 +1,146 @@
+Python 3.11.12
+Torch sees GPUs: 2 Tesla P100-PCIE-16GB
+Testing API call to Ollama:
+[GIN] 2025/04/30 - 02:11:09 | 200 | 12.909379226s |             ::1 | POST     "/api/generate"
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:04.768409921Z","response":"Hello","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:04.875655853Z","response":" there","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:04.96576731Z","response":"!","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.058972917Z","response":" It","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.155592356Z","response":"'","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.249336915Z","response":"s","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.345518429Z","response":" great","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.437520131Z","response":" to","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.531498833Z","response":" connect","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.623528461Z","response":" with","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.722911314Z","response":" you","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.819857411Z","response":" too","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:05.916369895Z","response":"!","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.012690341Z","response":" 👋","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.112117106Z","response":" ","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.205687641Z","response":"\n\n","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.299233128Z","response":"Is","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.389851766Z","response":" there","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.485627557Z","response":" anything","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.5791029Z","response":" I","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.676483971Z","response":" can","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.765008789Z","response":" help","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.855710643Z","response":" you","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:06.946389252Z","response":" with","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.036911559Z","response":" today","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.127432306Z","response":"?","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.218012626Z","response":" Or","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.30777746Z","response":" were","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.397570104Z","response":" you","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.487439324Z","response":" just","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.577261702Z","response":" testing","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.667051073Z","response":" to","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.756867734Z","response":" see","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.84665061Z","response":" if","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:07.936448616Z","response":" I","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.026249405Z","response":" respond","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.116085903Z","response":"?","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.205853767Z","response":" 😄","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.295660836Z","response":" ","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.385522262Z","response":"\n\n","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.475291003Z","response":"Either","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.565097693Z","response":" way","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.655301935Z","response":",","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.745056437Z","response":" I","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.835297041Z","response":"'","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:08.925147941Z","response":"m","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:09.014930867Z","response":" here","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:09.104728333Z","response":" and","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:09.194531795Z","response":" ready","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:09.284317116Z","response":"!","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:09.37412325Z","response":"\n","done":false}
+{"model":"gemma3:27b","created_at":"2025-04-30T09:11:09.463992504Z","response":"","done":true,"done_reason":"stop","context":[105,2364,107,9259,236764,1902,236888,106,107,105,4368,107,9259,993,236888,1030,236789,236751,1822,531,3371,607,611,2311,236888,155818,236743,108,4602,993,4658,564,740,1601,611,607,3124,236881,2408,964,611,1164,7257,531,1460,768,564,8932,236881,222194,236743,108,75064,1595,236764,564,236789,236757,1590,532,5508,236888,107],"total_duration":12884574746,"load_duration":7048187278,"prompt_eval_count":13,"prompt_eval_duration":1137427900,"eval_count":52,"eval_duration":4697043085}
+GPU 0: Tesla P100-PCIE-16GB (UUID: GPU-eb27d462-5ec0-8828-9d23-2b9d8d1eb03e)
+GPU 1: Tesla P100-PCIE-16GB (UUID: GPU-2a6c5c9e-81b2-efc9-8032-e88149cff179)
+Wed Apr 30 02:11:09 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.90.07              Driver Version: 550.90.07      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:0B:00.0 Off |                    0 |
+| N/A   30C    P0             36W /  250W |    9579MiB /  16384MiB |     24%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla P100-PCIE-16GB           On  |   00000000:86:00.0 Off |                    0 |
+| N/A   30C    P0             38W /  250W |   10955MiB /  16384MiB |     53%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A     14100      C   /usr/bin/ollama                              9576MiB |
+|    1   N/A  N/A     14100      C   /usr/bin/ollama                             10952MiB |
++-----------------------------------------------------------------------------------------+
+Loading HF model: TinyLlama/TinyLlama-1.1B-Chat-v1.0 on 0
+
+🔧 Loading models of type: ollama
+📋 Loaded 79 prompts and 1 models
+
+🧪 Running: gemma3:27b
+[GIN] 2025/04/30 - 02:11:54 | 200 | 25.913808379s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:12:10 | 200 | 15.887249789s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:12:34 | 200 | 24.014897471s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:13:00 | 200 |   25.9375772s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:13:25 | 200 | 24.948885436s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:13:53 | 200 | 28.514148395s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:14:15 | 200 | 21.508549482s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:14:41 | 200 | 25.777559454s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:15:03 | 200 | 22.008149976s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:15:28 | 200 |  25.76084639s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:15:49 | 200 | 20.348300566s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:16:12 | 200 | 22.983578941s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:16:32 | 200 | 20.652820907s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:16:54 | 200 |  21.64441552s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:17:20 | 200 | 25.656584334s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:17:44 | 200 | 24.532304835s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:18:11 | 200 | 27.086001787s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:18:33 | 200 |  21.40666323s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:18:59 | 200 | 26.272846252s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:19:18 | 200 | 18.952065996s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:19:40 | 200 | 21.624144996s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:19:58 | 200 | 18.341958933s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:20:24 | 200 | 25.871110123s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:20:44 | 200 | 20.688969003s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:21:07 | 200 | 22.106935946s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:21:36 | 200 | 29.434808211s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:22:01 | 200 | 24.844295867s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:22:26 | 200 | 25.084602692s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:22:49 | 200 | 23.605451799s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:23:17 | 200 | 27.954431822s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:23:41 | 200 | 23.228074135s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:24:07 | 200 | 26.111493047s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:24:26 | 200 | 18.807259072s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:24:49 | 200 | 22.895818485s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:25:11 | 200 | 22.924445633s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:25:33 | 200 | 21.595267322s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:25:59 | 200 | 25.785666185s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:26:22 | 200 | 22.728332866s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:26:48 | 200 |  26.85894968s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:27:14 | 200 | 26.068821886s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:27:38 | 200 | 23.672429726s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:28:06 | 200 | 28.125875814s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:28:30 | 200 | 24.201480601s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:28:55 | 200 | 24.874807754s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:29:11 | 200 | 15.163518645s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:29:34 | 200 | 23.731601418s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:29:53 | 200 | 18.922325887s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:30:12 | 200 |  18.57902226s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:30:36 | 200 | 24.424162354s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:31:01 | 200 | 25.087022691s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:31:27 | 200 | 26.181145688s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:31:56 | 200 | 28.476983005s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:32:22 | 200 | 26.544568978s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:32:48 | 200 | 25.121134962s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:33:16 | 200 | 28.832043356s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:33:34 | 200 | 17.887635475s |       127.0.0.1 | POST     "/api/chat"
+[GIN] 2025/04/30 - 02:33:59 | 200 | 25.050495288s |       127.0.0.1 | POST     "/api/chat"
