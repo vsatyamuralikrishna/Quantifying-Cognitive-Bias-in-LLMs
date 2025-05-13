@@ -8,14 +8,17 @@ ollama:
   # - name: "mistral:latest"
   #   slug: "mistral"
   #   temperature: 0.7
-  # - name: "mistral-small3.1:latest"
-  #   slug: "mistral-small3.1"
-  #   temperature: 0.7
-  # - name: "phi4:latest"
-  #   slug: "phi4"
-  #   temperature: 0.7
+  - name: "mistral-small3.1:latest"
+    slug: "mistral3.1"
+    temperature: 0.7
+  - name: "phi4:latest"
+    slug: "phi4"
+    temperature: 0.7
   - name: "gemma3:27b"
-    slug: "gemma3-27b"
+    slug: "gemma3-27b"                            
+    temperature: 0.7
+  - name: "qwen2.5:32b"
+    slug: "qwen32b"                            
     temperature: 0.7
 
 transformers:
