@@ -1,0 +1,258 @@
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
+2025/05/02 14:29:58 routes.go:1231: INFO server config env="map[CUDA_VISIBLE_DEVICES:0,1 GPU_DEVICE_ORDINAL:0,1 HIP_VISIBLE_DEVICES: HSA_OVERRIDE_GFX_VERSION: HTTPS_PROXY: HTTP_PROXY: NO_PROXY: OLLAMA_CONTEXT_LENGTH:2048 OLLAMA_DEBUG:false OLLAMA_FLASH_ATTENTION:false OLLAMA_GPU_OVERHEAD:0 OLLAMA_HOST:http://0.0.0.0:11434 OLLAMA_INTEL_GPU:false OLLAMA_KEEP_ALIVE:5m0s OLLAMA_KV_CACHE_TYPE: OLLAMA_LLM_LIBRARY: OLLAMA_LOAD_TIMEOUT:5m0s OLLAMA_MAX_LOADED_MODELS:0 OLLAMA_MAX_QUEUE:512 OLLAMA_MODELS:/groups/tylermillhouse/ollama/home/.ollama/models OLLAMA_MULTIUSER_CACHE:false OLLAMA_NEW_ENGINE:false OLLAMA_NOHISTORY:false OLLAMA_NOPRUNE:false OLLAMA_NUM_PARALLEL:0 OLLAMA_ORIGINS:[http://localhost https://localhost http://localhost:* https://localhost:* http://127.0.0.1 https://127.0.0.1 http://127.0.0.1:* https://127.0.0.1:* http://0.0.0.0 https://0.0.0.0 http://0.0.0.0:* https://0.0.0.0:* app://* file://* tauri://* vscode-webview://* vscode-file://*] OLLAMA_SCHED_SPREAD:false ROCR_VISIBLE_DEVICES:0,1 http_proxy: https_proxy: no_proxy:]"
+time=2025-05-02T14:29:58.560-07:00 level=INFO source=images.go:458 msg="total blobs: 36"
+time=2025-05-02T14:29:58.564-07:00 level=INFO source=images.go:465 msg="total unused blobs removed: 0"
+time=2025-05-02T14:29:58.569-07:00 level=INFO source=routes.go:1298 msg="Listening on [::]:11434 (version 0.6.5)"
+time=2025-05-02T14:29:58.573-07:00 level=INFO source=gpu.go:217 msg="looking for compatible GPUs"
+time=2025-05-02T14:29:58.839-07:00 level=INFO source=types.go:130 msg="inference compute" id=GPU-4a5981d0-7ba1-982a-00dd-cdb757d1d12e library=cuda variant=v12 compute=6.0 driver=12.4 name="Tesla P100-PCIE-16GB" total="15.9 GiB" available="15.6 GiB"
+time=2025-05-02T14:29:58.839-07:00 level=INFO source=types.go:130 msg="inference compute" id=GPU-a84de421-a5ac-579f-e6a1-6305119ea330 library=cuda variant=v12 compute=6.0 driver=12.4 name="Tesla P100-PCIE-16GB" total="15.9 GiB" available="15.6 GiB"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    98  100    41  100    57   1661   2309 --:--:-- --:--:-- --:--:--  2375
+/groups/tylermillhouse/micromamba_envs/myenv/lib/python3.11/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/groups/tylermillhouse/micromamba_envs/myenv/lib/python3.11/site-packages/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/groups/tylermillhouse/micromamba_envs/myenv/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Model: qwen32b:   0%|          | 0/79 [00:00<?, ?it/s]time=2025-05-02T14:30:34.521-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.vision.block_count default=0
+time=2025-05-02T14:30:34.522-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.key_length default=128
+time=2025-05-02T14:30:34.522-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.value_length default=128
+time=2025-05-02T14:30:34.522-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.vision.block_count default=0
+time=2025-05-02T14:30:34.523-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.key_length default=128
+time=2025-05-02T14:30:34.523-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.value_length default=128
+time=2025-05-02T14:30:34.524-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.vision.block_count default=0
+time=2025-05-02T14:30:34.524-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.key_length default=128
+time=2025-05-02T14:30:34.524-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.value_length default=128
+time=2025-05-02T14:30:34.525-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.vision.block_count default=0
+time=2025-05-02T14:30:34.525-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.key_length default=128
+time=2025-05-02T14:30:34.525-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.value_length default=128
+time=2025-05-02T14:30:34.526-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.vision.block_count default=0
+time=2025-05-02T14:30:34.526-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.key_length default=128
+time=2025-05-02T14:30:34.526-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.value_length default=128
+time=2025-05-02T14:30:34.527-07:00 level=INFO source=sched.go:732 msg="new model will fit in available VRAM, loading" model=/groups/tylermillhouse/ollama/home/.ollama/models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 library=cuda parallel=4 required="23.4 GiB"
+time=2025-05-02T14:30:34.719-07:00 level=INFO source=server.go:105 msg="system memory" total="251.2 GiB" free="243.9 GiB" free_swap="0 B"
+time=2025-05-02T14:30:34.720-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.vision.block_count default=0
+time=2025-05-02T14:30:34.720-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.key_length default=128
+time=2025-05-02T14:30:34.720-07:00 level=WARN source=ggml.go:152 msg="key not found" key=qwen2.attention.value_length default=128
+time=2025-05-02T14:30:34.720-07:00 level=INFO source=server.go:138 msg=offload library=cuda layers.requested=-1 layers.model=65 layers.offload=65 layers.split=34,31 memory.available="[15.6 GiB 11.3 GiB]" memory.gpu_overhead="0 B" memory.required.full="23.4 GiB" memory.required.partial="23.4 GiB" memory.required.kv="2.0 GiB" memory.required.allocations="[12.3 GiB 11.1 GiB]" memory.weights.total="18.1 GiB" memory.weights.repeating="17.5 GiB" memory.weights.nonrepeating="609.1 MiB" memory.graph.full="916.1 MiB" memory.graph.partial="916.1 MiB"
+llama_model_loader: loaded meta data with 34 key-value pairs and 771 tensors from /groups/tylermillhouse/ollama/home/.ollama/models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 32B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5
+llama_model_loader: - kv   5:                         general.size_label str              = 32B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-3...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 32B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-32B
+llama_model_loader: - kv  12:                               general.tags arr[str,2]       = ["chat", "text-generation"]
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 64
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 5120
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 27648
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 40
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 8
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  321 tensors
+llama_model_loader: - type q4_K:  385 tensors
+llama_model_loader: - type q6_K:   65 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 18.48 GiB (4.85 BPW) 
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 1
+print_info: model type       = ?B
+print_info: model params     = 32.76 B
+print_info: general.name     = Qwen2.5 32B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+llama_model_load: vocab only - skipping tensors
+time=2025-05-02T14:30:35.069-07:00 level=INFO source=server.go:405 msg="starting llama server" cmd="/usr/bin/ollama runner --model /groups/tylermillhouse/ollama/home/.ollama/models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 --ctx-size 8192 --batch-size 512 --n-gpu-layers 65 --threads 28 --parallel 4 --tensor-split 34,31 --port 35710"
+time=2025-05-02T14:30:35.087-07:00 level=INFO source=sched.go:451 msg="loaded runners" count=1
+time=2025-05-02T14:30:35.087-07:00 level=INFO source=server.go:580 msg="waiting for llama runner to start responding"
+time=2025-05-02T14:30:35.087-07:00 level=INFO source=server.go:614 msg="waiting for server to become available" status="llm server error"
+time=2025-05-02T14:30:35.105-07:00 level=INFO source=runner.go:853 msg="starting go runner"
+ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+ggml_cuda_init: found 2 CUDA devices:
+  Device 0: Tesla P100-PCIE-16GB, compute capability 6.0, VMM: yes
+  Device 1: Tesla P100-PCIE-16GB, compute capability 6.0, VMM: yes
+load_backend: loaded CUDA backend from /usr/lib/ollama/cuda_v12/libggml-cuda.so
+load_backend: loaded CPU backend from /usr/lib/ollama/libggml-cpu-haswell.so
+time=2025-05-02T14:30:35.913-07:00 level=INFO source=ggml.go:109 msg=system CPU.0.SSE3=1 CPU.0.SSSE3=1 CPU.0.AVX=1 CPU.0.AVX2=1 CPU.0.F16C=1 CPU.0.FMA=1 CPU.0.LLAMAFILE=1 CPU.1.LLAMAFILE=1 CUDA.0.ARCHS=500,600,610,700,750,800,860,870,890,900,1200 CUDA.0.USE_GRAPHS=1 CUDA.0.PEER_MAX_BATCH_SIZE=128 CUDA.1.ARCHS=500,600,610,700,750,800,860,870,890,900,1200 CUDA.1.USE_GRAPHS=1 CUDA.1.PEER_MAX_BATCH_SIZE=128 compiler=cgo(gcc)
+time=2025-05-02T14:30:35.914-07:00 level=INFO source=runner.go:913 msg="Server listening on 127.0.0.1:35710"
+llama_model_load_from_file_impl: using device CUDA0 (Tesla P100-PCIE-16GB) - 16013 MiB free
+llama_model_load_from_file_impl: using device CUDA1 (Tesla P100-PCIE-16GB) - 11539 MiB free
+llama_model_loader: loaded meta data with 34 key-value pairs and 771 tensors from /groups/tylermillhouse/ollama/home/.ollama/models/blobs/sha256-eabc98a9bcbfce7fd70f3e07de599f8fda98120fefed5881934161ede8bd1a41 (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = qwen2
+llama_model_loader: - kv   1:                               general.type str              = model
+llama_model_loader: - kv   2:                               general.name str              = Qwen2.5 32B Instruct
+llama_model_loader: - kv   3:                           general.finetune str              = Instruct
+llama_model_loader: - kv   4:                           general.basename str              = Qwen2.5
+llama_model_loader: - kv   5:                         general.size_label str              = 32B
+llama_model_loader: - kv   6:                            general.license str              = apache-2.0
+llama_model_loader: - kv   7:                       general.license.link str              = https://huggingface.co/Qwen/Qwen2.5-3...
+llama_model_loader: - kv   8:                   general.base_model.count u32              = 1
+llama_model_loader: - kv   9:                  general.base_model.0.name str              = Qwen2.5 32B
+llama_model_loader: - kv  10:          general.base_model.0.organization str              = Qwen
+llama_model_loader: - kv  11:              general.base_model.0.repo_url str              = https://huggingface.co/Qwen/Qwen2.5-32B
+llama_model_loader: - kv  12:                               general.tags arr[str,2]       = ["chat", "text-generation"]
+llama_model_loader: - kv  13:                          general.languages arr[str,1]       = ["en"]
+llama_model_loader: - kv  14:                          qwen2.block_count u32              = 64
+llama_model_loader: - kv  15:                       qwen2.context_length u32              = 32768
+llama_model_loader: - kv  16:                     qwen2.embedding_length u32              = 5120
+llama_model_loader: - kv  17:                  qwen2.feed_forward_length u32              = 27648
+llama_model_loader: - kv  18:                 qwen2.attention.head_count u32              = 40
+llama_model_loader: - kv  19:              qwen2.attention.head_count_kv u32              = 8
+llama_model_loader: - kv  20:                       qwen2.rope.freq_base f32              = 1000000.000000
+llama_model_loader: - kv  21:     qwen2.attention.layer_norm_rms_epsilon f32              = 0.000001
+llama_model_loader: - kv  22:                          general.file_type u32              = 15
+llama_model_loader: - kv  23:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  24:                         tokenizer.ggml.pre str              = qwen2
+llama_model_loader: - kv  25:                      tokenizer.ggml.tokens arr[str,152064]  = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  26:                  tokenizer.ggml.token_type arr[i32,152064]  = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  27:                      tokenizer.ggml.merges arr[str,151387]  = ["Ġ Ġ", "ĠĠ ĠĠ", "i n", "Ġ t",...
+llama_model_loader: - kv  28:                tokenizer.ggml.eos_token_id u32              = 151645
+llama_model_loader: - kv  29:            tokenizer.ggml.padding_token_id u32              = 151643
+llama_model_loader: - kv  30:                tokenizer.ggml.bos_token_id u32              = 151643
+llama_model_loader: - kv  31:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  32:                    tokenizer.chat_template str              = {%- if tools %}\n    {{- '<|im_start|>...
+llama_model_loader: - kv  33:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  321 tensors
+llama_model_loader: - type q4_K:  385 tensors
+llama_model_loader: - type q6_K:   65 tensors
+print_info: file format = GGUF V3 (latest)
+print_info: file type   = Q4_K - Medium
+print_info: file size   = 18.48 GiB (4.85 BPW) 
+time=2025-05-02T14:30:36.093-07:00 level=INFO source=server.go:614 msg="waiting for server to become available" status="llm server loading model"
+load: special tokens cache size = 22
+load: token to piece cache size = 0.9310 MB
+print_info: arch             = qwen2
+print_info: vocab_only       = 0
+print_info: n_ctx_train      = 32768
+print_info: n_embd           = 5120
+print_info: n_layer          = 64
+print_info: n_head           = 40
+print_info: n_head_kv        = 8
+print_info: n_rot            = 128
+print_info: n_swa            = 0
+print_info: n_embd_head_k    = 128
+print_info: n_embd_head_v    = 128
+print_info: n_gqa            = 5
+print_info: n_embd_k_gqa     = 1024
+print_info: n_embd_v_gqa     = 1024
+print_info: f_norm_eps       = 0.0e+00
+print_info: f_norm_rms_eps   = 1.0e-06
+print_info: f_clamp_kqv      = 0.0e+00
+print_info: f_max_alibi_bias = 0.0e+00
+print_info: f_logit_scale    = 0.0e+00
+print_info: n_ff             = 27648
+print_info: n_expert         = 0
+print_info: n_expert_used    = 0
+print_info: causal attn      = 1
+print_info: pooling type     = 0
+print_info: rope type        = 2
+print_info: rope scaling     = linear
+print_info: freq_base_train  = 1000000.0
+print_info: freq_scale_train = 1
+print_info: n_ctx_orig_yarn  = 32768
+print_info: rope_finetuned   = unknown
+print_info: ssm_d_conv       = 0
+print_info: ssm_d_inner      = 0
+print_info: ssm_d_state      = 0
+print_info: ssm_dt_rank      = 0
+print_info: ssm_dt_b_c_rms   = 0
+print_info: model type       = 32B
+print_info: model params     = 32.76 B
+print_info: general.name     = Qwen2.5 32B Instruct
+print_info: vocab type       = BPE
+print_info: n_vocab          = 152064
+print_info: n_merges         = 151387
+print_info: BOS token        = 151643 '<|endoftext|>'
+print_info: EOS token        = 151645 '<|im_end|>'
+print_info: EOT token        = 151645 '<|im_end|>'
+print_info: PAD token        = 151643 '<|endoftext|>'
+print_info: LF token         = 198 'Ċ'
+print_info: FIM PRE token    = 151659 '<|fim_prefix|>'
+print_info: FIM SUF token    = 151661 '<|fim_suffix|>'
+print_info: FIM MID token    = 151660 '<|fim_middle|>'
+print_info: FIM PAD token    = 151662 '<|fim_pad|>'
+print_info: FIM REP token    = 151663 '<|repo_name|>'
+print_info: FIM SEP token    = 151664 '<|file_sep|>'
+print_info: EOG token        = 151643 '<|endoftext|>'
+print_info: EOG token        = 151645 '<|im_end|>'
+print_info: EOG token        = 151662 '<|fim_pad|>'
+print_info: EOG token        = 151663 '<|repo_name|>'
+print_info: EOG token        = 151664 '<|file_sep|>'
+print_info: max token length = 256
+load_tensors: loading model tensors, this can take a while... (mmap = true)
+load_tensors: offloading 64 repeating layers to GPU
+load_tensors: offloading output layer to GPU
+load_tensors: offloaded 65/65 layers to GPU
+load_tensors:   CPU_Mapped model buffer size =   417.66 MiB
+load_tensors:        CUDA0 model buffer size =  9472.88 MiB
+load_tensors:        CUDA1 model buffer size =  9035.47 MiB
+llama_init_from_model: n_seq_max     = 4
+llama_init_from_model: n_ctx         = 8192
+llama_init_from_model: n_ctx_per_seq = 2048
+llama_init_from_model: n_batch       = 2048
+llama_init_from_model: n_ubatch      = 512
+llama_init_from_model: flash_attn    = 0
+llama_init_from_model: freq_base     = 1000000.0
+llama_init_from_model: freq_scale    = 1
+llama_init_from_model: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+llama_kv_cache_init: kv_size = 8192, offload = 1, type_k = 'f16', type_v = 'f16', n_layer = 64, can_shift = 1
+llama_kv_cache_init:      CUDA0 KV buffer size =  1088.00 MiB
+llama_kv_cache_init:      CUDA1 KV buffer size =   960.00 MiB
+llama_init_from_model: KV self size  = 2048.00 MiB, K (f16): 1024.00 MiB, V (f16): 1024.00 MiB
+llama_init_from_model:  CUDA_Host  output buffer size =     2.40 MiB
+llama_init_from_model: pipeline parallelism enabled (n_copies=4)
+llama_init_from_model:      CUDA0 compute buffer size =   784.01 MiB
+llama_init_from_model:      CUDA1 compute buffer size =   784.02 MiB
+llama_init_from_model:  CUDA_Host compute buffer size =    74.02 MiB
+llama_init_from_model: graph nodes  = 2246
+llama_init_from_model: graph splits = 3
+time=2025-05-02T14:30:58.667-07:00 level=INFO source=server.go:619 msg="llama runner started in 23.58 seconds"
+Model: qwen32b:   1%|▏         | 1/79 [25:42<33:25:46, 1542.90s/it]Model: qwen32b:   3%|▎         | 2/79 [50:36<32:22:47, 1513.86s/it]Model: qwen32b:   4%|▍         | 3/79 [1:15:57<32:01:37, 1517.08s/it]Model: qwen32b:   5%|▌         | 4/79 [1:42:40<32:19:03, 1551.24s/it]Model: qwen32b:   6%|▋         | 5/79 [2:08:16<31:46:14, 1545.60s/it]Model: qwen32b:   8%|▊         | 6/79 [2:32:50<30:50:45, 1521.17s/it]Model: qwen32b:   9%|▉         | 7/79 [2:57:39<30:13:00, 1510.83s/it]Model: qwen32b:  10%|█         | 8/79 [3:22:32<29:41:01, 1505.10s/it]Model: qwen32b:  11%|█▏        | 9/79 [3:49:05<29:47:53, 1532.48s/it]Model: qwen32b:  13%|█▎        | 10/79 [4:13:46<29:04:06, 1516.62s/it]Model: qwen32b:  14%|█▍        | 11/79 [4:38:33<28:28:34, 1507.56s/it]Model: qwen32b:  15%|█▌        | 12/79 [5:02:40<27:42:57, 1489.21s/it]Model: qwen32b:  16%|█▋        | 13/79 [5:27:28<27:17:40, 1488.80s/it]Model: qwen32b:  18%|█▊        | 14/79 [5:51:50<26:43:54, 1480.53s/it]Model: qwen32b:  19%|█▉        | 15/79 [6:15:28<25:59:25, 1461.95s/it]Model: qwen32b:  20%|██        | 16/79 [6:40:42<25:51:27, 1477.58s/it]Model: qwen32b:  22%|██▏       | 17/79 [7:04:59<25:20:18, 1471.26s/it]Model: qwen32b:  23%|██▎       | 18/79 [7:28:52<24:44:08, 1459.81s/it]Model: qwen32b:  24%|██▍       | 19/79 [7:54:08<24:36:35, 1476.59s/it]Model: qwen32b:  25%|██▌       | 20/79 [8:21:19<24:57:46, 1523.16s/it]Model: qwen32b:  27%|██▋       | 21/79 [8:45:33<24:12:07, 1502.20s/it]Model: qwen32b:  28%|██▊       | 22/79 [9:13:03<24:29:21, 1546.69s/it]Model: qwen32b:  29%|██▉       | 23/79 [9:42:11<24:59:47, 1606.93s/it]Model: qwen32b:  30%|███       | 24/79 [10:07:16<24:05:09, 1576.54s/it]Model: qwen32b:  32%|███▏      | 25/79 [10:32:55<23:28:34, 1565.08s/it]Model: qwen32b:  33%|███▎      | 26/79 [10:59:44<23:14:12, 1578.34s/it]Model: qwen32b:  34%|███▍      | 27/79 [11:25:19<22:36:32, 1565.24s/it]Model: qwen32b:  35%|███▌      | 28/79 [11:50:19<21:53:51, 1545.71s/it]Model: qwen32b:  37%|███▋      | 29/79 [12:14:27<21:03:50, 1516.60s/it]Model: qwen32b:  38%|███▊      | 30/79 [12:38:22<20:18:28, 1492.01s/it]Model: qwen32b:  39%|███▉      | 31/79 [13:05:20<20:23:44, 1529.67s/it]Model: qwen32b:  41%|████      | 32/79 [13:30:44<19:56:56, 1528.01s/it]Model: qwen32b:  42%|████▏     | 33/79 [13:56:26<19:34:47, 1532.33s/it]Model: qwen32b:  43%|████▎     | 34/79 [14:21:30<19:02:53, 1523.85s/it]Model: qwen32b:  44%|████▍     | 35/79 [14:49:15<19:08:25, 1566.02s/it]Model: qwen32b:  46%|████▌     | 36/79 [15:13:41<18:20:57, 1536.23s/it]Model: qwen32b:  47%|████▋     | 37/79 [15:40:13<18:07:04, 1552.97s/it]Model: qwen32b:  48%|████▊     | 38/79 [16:04:58<17:27:16, 1532.59s/it]Model: qwen32b:  49%|████▉     | 39/79 [16:28:38<16:39:12, 1498.81s/it]Model: qwen32b:  51%|█████     | 40/79 [16:53:06<16:08:06, 1489.38s/it]Model: qwen32b:  52%|█████▏    | 41/79 [17:18:36<15:51:02, 1501.63s/it]Model: qwen32b:  53%|█████▎    | 42/79 [17:44:08<15:31:36, 1510.70s/it]Model: qwen32b:  54%|█████▍    | 43/79 [18:10:10<15:15:44, 1526.22s/it]Model: qwen32b:  56%|█████▌    | 44/79 [18:36:20<14:57:52, 1539.21s/it]Model: qwen32b:  57%|█████▋    | 45/79 [19:01:14<14:24:39, 1525.86s/it]Model: qwen32b:  58%|█████▊    | 46/79 [19:26:30<13:57:31, 1522.76s/it]Model: qwen32b:  59%|█████▉    | 47/79 [19:51:56<13:32:35, 1523.61s/it]Model: qwen32b:  61%|██████    | 48/79 [20:16:35<13:00:17, 1510.23s/it]Model: qwen32b:  62%|██████▏   | 49/79 [20:43:50<12:53:55, 1547.84s/it]Model: qwen32b:  63%|██████▎   | 50/79 [21:09:31<12:27:03, 1545.62s/it]Model: qwen32b:  65%|██████▍   | 51/79 [21:34:46<11:57:02, 1536.52s/it]Model: qwen32b:  66%|██████▌   | 52/79 [22:01:15<11:38:32, 1552.32s/it]Model: qwen32b:  67%|██████▋   | 53/79 [22:26:55<11:11:04, 1548.62s/it]Model: qwen32b:  68%|██████▊   | 54/79 [22:52:49<10:45:58, 1550.34s/it]Model: qwen32b:  70%|██████▉   | 55/79 [23:18:16<10:17:14, 1543.09s/it]Model: qwen32b:  71%|███████   | 56/79 [23:44:35<9:55:43, 1554.06s/it] Model: qwen32b:  72%|███████▏  | 57/79 [24:09:14<9:21:28, 1531.32s/it]Model: qwen32b:  73%|███████▎  | 58/79 [24:35:27<9:00:20, 1543.82s/it]Model: qwen32b:  75%|███████▍  | 59/79 [25:01:18<8:35:21, 1546.08s/it]Model: qwen32b:  76%|███████▌  | 60/79 [25:31:09<8:32:54, 1619.72s/it]Model: qwen32b:  77%|███████▋  | 61/79 [25:57:23<8:01:47, 1605.96s/it]Model: qwen32b:  78%|███████▊  | 62/79 [26:24:15<7:35:32, 1607.77s/it]Model: qwen32b:  80%|███████▉  | 63/79 [26:51:46<7:12:12, 1620.79s/it]Model: qwen32b:  81%|████████  | 64/79 [27:15:59<6:32:36, 1570.42s/it]Model: qwen32b:  82%|████████▏ | 65/79 [27:42:53<6:09:27, 1583.36s/it]Model: qwen32b:  84%|████████▎ | 66/79 [28:09:44<5:44:52, 1591.77s/it]Model: qwen32b:  85%|████████▍ | 67/79 [28:34:31<5:12:03, 1560.33s/it]Model: qwen32b:  86%|████████▌ | 68/79 [29:00:09<4:44:50, 1553.67s/it]Model: qwen32b:  87%|████████▋ | 69/79 [29:24:14<4:13:28, 1520.86s/it]Model: qwen32b:  89%|████████▊ | 70/79 [29:50:00<3:49:15, 1528.39s/it]Model: qwen32b:  90%|████████▉ | 71/79 [30:15:27<3:23:44, 1528.11s/it]Model: qwen32b:  91%|█████████ | 72/79 [30:39:20<2:54:57, 1499.64s/it]Model: qwen32b:  92%|█████████▏| 73/79 [31:04:38<2:30:30, 1505.03s/it]Model: qwen32b:  94%|█████████▎| 74/79 [31:30:50<2:07:05, 1525.05s/it]Model: qwen32b:  95%|█████████▍| 75/79 [31:55:11<1:40:23, 1505.88s/it]Model: qwen32b:  96%|█████████▌| 76/79 [32:20:26<1:15:25, 1508.58s/it]Model: qwen32b:  97%|█████████▋| 77/79 [32:47:07<51:12, 1536.48s/it]  Model: qwen32b:  99%|█████████▊| 78/79 [33:11:17<25:10, 1510.31s/it]Model: qwen32b: 100%|██████████| 79/79 [33:37:40<00:00, 1532.24s/it]Model: qwen32b: 100%|██████████| 79/79 [33:37:40<00:00, 1532.41s/it]
