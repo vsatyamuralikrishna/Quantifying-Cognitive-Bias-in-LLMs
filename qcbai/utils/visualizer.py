@@ -18,8 +18,13 @@ def plot_prompt_result(
     result: ExperimentResult,
     images_dir: Path,
 ):
-    """Plot a single prompt result. Adapts to binary vs amount games."""
-    images_dir.mkdir(parents=True, exist_ok=True)
+    """Plot a single prompt result. Adapts to binary vs amount games.
+
+    Saves to: images/<game_key>/<model_slug>/<prompt_id>.png
+    """
+    # Create model-specific subdirectory for plots
+    model_images_dir = images_dir / sanitize_filename(model_slug)
+    model_images_dir.mkdir(parents=True, exist_ok=True)
     fig, ax = plt.subplots(figsize=(8, 6))
 
     if game_config.response_type == "binary":
@@ -60,8 +65,8 @@ def plot_prompt_result(
     ax.grid(axis="y", linestyle="--", alpha=0.7)
     fig.tight_layout()
 
-    filename = f"{sanitize_filename(model_slug)}__{sanitize_filename(prompt_id)}.png"
-    fig.savefig(images_dir / filename, dpi=300, bbox_inches="tight")
+    filename = f"{sanitize_filename(prompt_id)}.png"
+    fig.savefig(model_images_dir / filename, dpi=300, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -71,8 +76,13 @@ def plot_model_summary(
     game_config: GameConfig,
     images_dir: Path,
 ):
-    """Plot a summary chart of all prompt results for a given model."""
-    images_dir.mkdir(parents=True, exist_ok=True)
+    """Plot a summary chart of all prompt results for a given model.
+
+    Saves to: images/<game_key>/<model_slug>/summary.png
+    """
+    # Create model-specific subdirectory for plots
+    model_images_dir = images_dir / sanitize_filename(model_slug)
+    model_images_dir.mkdir(parents=True, exist_ok=True)
     n = len(summaries)
     if n == 0:
         return
@@ -137,6 +147,6 @@ def plot_model_summary(
     fig.tight_layout()
     fig.subplots_adjust(bottom=0.40, top=0.88, left=0.08, right=0.97)
 
-    filename = f"{sanitize_filename(model_slug)}__summary.png"
-    fig.savefig(images_dir / filename, dpi=300, bbox_inches="tight")
+    filename = "summary.png"
+    fig.savefig(model_images_dir / filename, dpi=300, bbox_inches="tight")
     plt.close(fig)

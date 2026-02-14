@@ -151,29 +151,50 @@ def run_prompt_with_model(
     )
 
 
+def _append_to_json_file(filepath: Path, entry: dict):
+    """Load a JSON array file, append an entry, and write it back."""
+    try:
+        with open(filepath, "r") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = []
+
+    if not isinstance(data, list):
+        data = []
+
+    data.append(entry)
+
+    with open(filepath, "w") as f:
+        json.dump(data, f, indent=2)
+
+
 def save_result(result: ExperimentResult, results_dir: Path, combined_path: Path):
-    results_dir.mkdir(parents=True, exist_ok=True)
+    """
+    Save an individual experiment result and append to combined files.
+
+    Directory structure:
+        results/<game_key>/<model_slug>/<prompt_id>.json     (individual)
+        results/<game_key>/<model_slug>/all_results.json     (combined for this model)
+        results/<game_key>/all_results.json                  (combined across all models)
+    """
+    # Create model-specific subdirectory under game results
+    model_dir = results_dir / result.model_slug
+    model_dir.mkdir(parents=True, exist_ok=True)
     combined_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Save individual result
-    filename = f"{result.model_name}__{result.prompt_id}.json"
-    with open(results_dir / filename, "w") as f:
-        json.dump(result.dict(), f, indent=2)
+    result_dict = result.dict()
 
-    # Load or initialize combined results
-    try:
-        with open(combined_path, "r") as f:
-            combined_data = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        combined_data = []
+    # Save individual result under model subdirectory
+    filename = f"{result.prompt_id}.json"
+    with open(model_dir / filename, "w") as f:
+        json.dump(result_dict, f, indent=2)
 
-    if not isinstance(combined_data, list):
-        combined_data = []
+    # Append to per-model combined results
+    model_combined_path = model_dir / "all_results.json"
+    _append_to_json_file(model_combined_path, result_dict)
 
-    combined_data.append(result.dict())
-
-    with open(combined_path, "w") as f:
-        json.dump(combined_data, f, indent=2)
+    # Append to game-level combined results (across all models)
+    _append_to_json_file(combined_path, result_dict)
 
 
 def run_all_experiments(

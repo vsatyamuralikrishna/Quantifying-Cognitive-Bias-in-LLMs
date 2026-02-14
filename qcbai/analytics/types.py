@@ -53,6 +53,7 @@ class ExperimentResult(BaseModel):
     total_runs: int
 
     model_name: str
+    model_slug: str = ""  # filesystem-safe model identifier (e.g. "llama3.2", "qwen2.5-32b")
     game_type: str
     response_type: str = "binary"  # "binary" or "amount"
 

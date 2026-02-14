@@ -123,13 +123,13 @@ Quantifying-Cognitive-Bias-in-LLMs/
 |   +-- <game_key>/*.json
 |
 |-- results/                       # Experiment outputs (gitignored)
-|   +-- <game_key>/<model>__<prompt_id>.json
+|   +-- <game_key>/<model_slug>/<prompt_id>.json
 |
 |-- analytics/                     # Aggregated summaries (gitignored)
 |   +-- <game_key>/summary.{json,csv}
 |
 +-- images/                        # Generated plots (gitignored)
-    +-- <game_key>/<model>/*.png
+    +-- <game_key>/<model_slug>/<prompt_id>.png
 ```
 
 ---
@@ -280,13 +280,41 @@ python main.py --game all --runs 100 --concurrent 8
 
 ### Output
 
-For each `(game, model, prompt)` combination:
+Results and plots are organized by game → model → prompt:
+
+```
+results/<game_key>/
+  ├── llama3.2/
+  │   ├── all_results.json      ← combined for this model
+  │   ├── base_prompt.json
+  │   ├── intro__gender-Male__race-White__ethnicity-Hispanic.json
+  │   └── ...  (79 prompt files + all_results.json per model)
+  ├── mistral/
+  │   ├── all_results.json
+  │   └── ...
+  ├── qwen2.5-32b/
+  │   ├── all_results.json
+  │   └── ...
+  └── all_results.json          ← combined across ALL models
+
+images/<game_key>/
+  ├── llama3.2/
+  │   ├── base_prompt.png
+  │   ├── intro__gender-Male__race-White__ethnicity-Hispanic.png
+  │   └── summary.png
+  ├── mistral/
+  │   └── ...
+  └── qwen2.5-32b/
+      └── ...
+```
 
 | Output | Location |
 |--------|----------|
-| Individual result | `results/<game_key>/<model>__<prompt_id>.json` |
-| Combined results | `results/<game_key>/all_results.json` |
-| Per-prompt plots | `images/<game_key>/<model>/*.png` |
+| Individual result | `results/<game_key>/<model_slug>/<prompt_id>.json` |
+| Per-model combined | `results/<game_key>/<model_slug>/all_results.json` |
+| All-models combined | `results/<game_key>/all_results.json` |
+| Per-prompt plots | `images/<game_key>/<model_slug>/<prompt_id>.png` |
+| Model summary plot | `images/<game_key>/<model_slug>/summary.png` |
 
 ---
 
