@@ -1,4 +1,4 @@
-import platform
+import os
 from typing import List, Dict, Any
 from qcbai.llm.base import ModelRunner
 from pathlib import Path
@@ -9,7 +9,7 @@ MODEL_CONFIG_PATH = Path(__file__).parent / "models.yaml"
 
 
 class OllamaModel(ModelRunner):
-    """Model runner using the Ollama Python client."""
+    """Model runner using the Ollama Python client (sync + async)."""
 
     def __init__(self, name: str, slug: str, temperature: float = 0.7):
         self.name = name
@@ -26,8 +26,26 @@ class OllamaModel(ModelRunner):
         return {"temperature": self.temperature}
 
     def run_prompt(self, messages: List[Dict[str, str]], temperature: float = 0.7) -> Dict[str, Any]:
+        """Synchronous LLM call via ollama.chat()."""
         try:
             response = ollama.chat(
+                model=self.name,
+                messages=messages,
+                options={"temperature": temperature},
+            )
+            return {
+                "text": response.get("message", {}).get("content", ""),
+                "raw": response,
+            }
+        except Exception as e:
+            return {"text": "", "error": str(e)}
+
+    async def arun_prompt(self, messages: List[Dict[str, str]], temperature: float = 0.7) -> Dict[str, Any]:
+        """Async LLM call via ollama.AsyncClient for concurrent execution."""
+        try:
+            host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+            client = ollama.AsyncClient(host=host)
+            response = await client.chat(
                 model=self.name,
                 messages=messages,
                 options={"temperature": temperature},

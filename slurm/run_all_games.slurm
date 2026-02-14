@@ -1,18 +1,20 @@
 #!/bin/bash
-#SBATCH --job-name=qcbai-all
+#SBATCH --job-name=qcbai-games
 #SBATCH --output=slurm/logs/%x_%A_%a.out
 #SBATCH --error=slurm/logs/%x_%A_%a.err
 #SBATCH --time=48:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=32G
-#SBATCH --gres=gpu:1
-#SBATCH --partition=gpu
+#SBATCH --mem=32gb
+#SBATCH --gres=gpu:volta:1
+#SBATCH --partition=gpu_standard
+#SBATCH --account=YOUR_GROUP
 #SBATCH --array=0-6
 
 # ============================================================
 # SLURM Job Array: one job per game (7 games total)
+# University of Arizona HPC - Puma Cluster
 #
 # Usage:
 #   sbatch slurm/run_all_games.slurm
@@ -22,8 +24,8 @@
 #   0 = prisoners_dilemma
 #   1 = dictator_game
 #   2 = chicken_game
-#   3 = public_goods_game          (amount version: N=4, ENDOWMENT=20, MULTIPLIER=1.2)
-#   4 = public_goods_game_boolean  (binary: Contribute / Not Contribute)
+#   3 = public_goods_game
+#   4 = public_goods_game_boolean
 #   5 = ultimatum_game
 #   6 = trust_game
 # ============================================================
@@ -41,35 +43,40 @@ GAMES=(
 GAME=${GAMES[$SLURM_ARRAY_TASK_ID]}
 MODEL=${1:-""}
 
+# Number of concurrent async requests per prompt batch.
+# Must match OLLAMA_NUM_PARALLEL on the server.
+# V100S (32GB): 8 safe for 7B models, 4 for 13B models.
+CONCURRENT=${CONCURRENT:-8}
+
 echo "============================================"
+echo "QCBAI Experiment"
 echo "Job ID:       $SLURM_JOB_ID"
 echo "Array Index:  $SLURM_ARRAY_TASK_ID"
+echo "Cluster:      $SLURM_CLUSTER_NAME"
 echo "Node:         $HOSTNAME"
 echo "Game:         $GAME"
 echo "Model:        ${MODEL:-all}"
+echo "Concurrent:   $CONCURRENT"
 echo "Start:        $(date)"
 echo "============================================"
 
-# Load modules
-module load anaconda3 2>/dev/null || true
-module load cuda 2>/dev/null || true
+# Load UA HPC modules
+module load cuda11/11.8
 
-source activate qcbai 2>/dev/null || conda activate qcbai 2>/dev/null || true
+# Activate environment (micromamba is recommended on UA HPC)
+# Option A: micromamba (recommended)
+source ~/.bashrc
+micromamba activate qcbai 2>/dev/null || true
 
-cd $SLURM_SUBMIT_DIR/..
+# Option B: fallback to conda if micromamba not available
+# conda activate qcbai 2>/dev/null || true
 
+# Navigate to project root
+cd "$SLURM_SUBMIT_DIR" || exit 1
+
+# Ensure Ollama is accessible
+# UPDATE: Set this to the hostname of your Ollama server job
 export OLLAMA_HOST=${OLLAMA_HOST:-"http://localhost:11434"}
-
-# ---- Concurrency settings ----
-# Number of parallel requests Ollama handles simultaneously.
-# Must match --workers passed to main.py. Tune based on GPU VRAM:
-#   8  = safe for most GPUs (24GB+)
-#   4  = conservative (16GB)
-#   16 = aggressive (48GB+ A100/H100)
-WORKERS=${WORKERS:-8}
-export OLLAMA_NUM_PARALLEL=$WORKERS
-
-echo "Workers:      $WORKERS (OLLAMA_NUM_PARALLEL=$OLLAMA_NUM_PARALLEL)"
 
 # Generate prompts if not present
 if [ ! -d "prompts/$GAME" ]; then
@@ -77,11 +84,11 @@ if [ ! -d "prompts/$GAME" ]; then
     python generate_prompts.py --game "$GAME"
 fi
 
-# Run experiment with concurrent workers
+# Run experiment with async concurrency
 if [ -n "$MODEL" ]; then
-    python main.py --game "$GAME" --model "$MODEL" --runs 100 --temperature 0.7 --workers $WORKERS
+    python main.py --game "$GAME" --model "$MODEL" --runs 100 --temperature 0.7 --concurrent $CONCURRENT
 else
-    python main.py --game "$GAME" --runs 100 --temperature 0.7 --workers $WORKERS
+    python main.py --game "$GAME" --runs 100 --temperature 0.7 --concurrent $CONCURRENT
 fi
 
 echo "============================================"

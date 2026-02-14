@@ -3,13 +3,13 @@
 Main experiment runner for cognitive bias in LLMs.
 
 Runs experiments for one or more games across all configured Ollama models.
-Designed to work on HPC with SLURM job arrays (one game per job).
+Designed to work on UA HPC (Puma) with SLURM job arrays (one game per job).
 
 Usage:
     python main.py --game prisoners_dilemma
     python main.py --game prisoners_dilemma --model llama3.2:latest
     python main.py --game all
-    python main.py --game prisoners_dilemma --runs 100 --temperature 0.7
+    python main.py --game prisoners_dilemma --runs 100 --concurrent 8
 """
 
 import sys
@@ -61,12 +61,12 @@ def main():
         help="Model backend type (default: ollama)",
     )
     parser.add_argument(
-        "--workers",
+        "--concurrent",
         type=int,
         default=8,
         help=(
-            "Concurrent threads for the N runs per prompt (default: 8). "
-            "Set to 1 for sequential. On HPC, match to OLLAMA_NUM_PARALLEL."
+            "Max concurrent async requests per prompt batch (default: 8). "
+            "Set to 1 for sequential. On HPC, match OLLAMA_NUM_PARALLEL."
         ),
     )
     args = parser.parse_args()
@@ -87,11 +87,11 @@ def main():
     else:
         runners = all_runners
 
-    print(f"Models:  {[r.get_name() for r in runners]}")
-    print(f"Games:   {games_to_run}")
-    print(f"Runs:    {args.runs} per prompt")
-    print(f"Workers: {args.workers} concurrent threads")
-    print(f"Temp:    {args.temperature}")
+    print(f"Models:     {[r.get_name() for r in runners]}")
+    print(f"Games:      {games_to_run}")
+    print(f"Runs:       {args.runs} per prompt")
+    print(f"Concurrent: {args.concurrent} async requests")
+    print(f"Temp:       {args.temperature}")
 
     # Run each game
     for game_key in games_to_run:
@@ -124,7 +124,7 @@ def main():
             game_config=game_config,
             runs=args.runs,
             temperature=args.temperature,
-            max_workers=args.workers,
+            max_concurrent=args.concurrent,
         )
 
     print("\nAll experiments complete.")

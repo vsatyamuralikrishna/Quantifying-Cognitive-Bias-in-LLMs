@@ -176,7 +176,7 @@ images/
 prompts/
 
 # Analytics output (regenerated via analyze_results.py)
-analytics/
+/analytics/
 
 # Old legacy files
 prisoner_logs*
