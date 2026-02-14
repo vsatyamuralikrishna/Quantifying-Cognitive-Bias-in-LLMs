@@ -17,6 +17,20 @@ This framework tests whether LLMs change their decisions in classic economic gam
 | Ultimatum Game | Amount | $0-$10 |
 | Trust Game | Amount | $0-$10 |
 
+## Models
+
+All 7 Ollama models used in the study:
+
+| Model | Size | Slug |
+|-------|-----:|------|
+| llama3.2:latest | 2 GB | llama3.2 |
+| mistral:latest | 4.1 GB | mistral |
+| phi4:latest | 9.1 GB | phi4 |
+| mistral-small3.1:latest | 15 GB | mistral-small3.1 |
+| gemma3:27b | 17 GB | gemma3-27b |
+| qwen2.5:32b | 19 GB | qwen2.5-32b |
+| llama3.3:latest | 42 GB | llama3.3 |
+
 ## Quick Start
 
 ```bash
@@ -27,7 +41,10 @@ ollama pull llama3.2:latest
 # Generate prompts (553 total across 7 games)
 python generate_prompts.py
 
-# Run an experiment
+# Run a single experiment (1 game, 1 model)
+python main.py --game prisoners_dilemma --model llama3.2:latest --runs 100 --concurrent 8
+
+# Run all models on a game
 python main.py --game prisoners_dilemma --runs 100 --concurrent 8
 
 # Analyze results
@@ -56,8 +73,8 @@ docs/                    # Detailed documentation
 - **7 game-theory scenarios** covering cooperation, fairness, trust, and risk
 - **79 prompts per game** (26 personas x 3 styles + 1 neutral baseline)
 - **Async concurrent execution** via asyncio + ollama.AsyncClient
-- **HPC-ready** with SLURM job arrays for UA Puma cluster (V100S GPUs)
-- **Ollama integration** for local/HPC LLM inference
+- **HPC-ready** with SLURM 2D job arrays (7 games × 7 models = 49 jobs) for UA Puma cluster
+- **Singularity-based Ollama** for GPU inference on HPC nodes (V100S)
 - **Structured JSON output** with automated CSV analytics
 
 ## Documentation

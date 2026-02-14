@@ -112,9 +112,8 @@ Quantifying-Cognitive-Bias-in-LLMs/
 |       +-- visualizer.py          # Matplotlib plot generation
 |
 |-- slurm/                         # HPC job scripts (UA Puma cluster)
-|   |-- start_ollama.slurm         # Start Ollama server on GPU node
-|   |-- run_all_games.slurm        # Job array: all 7 games in parallel
-|   |-- run_single_game.slurm      # Run one game as a SLURM job
+|   |-- run_all_games.slurm        # 2D job array: 7 games × 7 models = 49 jobs
+|   |-- run_single_game.slurm      # Run one game+model as a SLURM job
 |   +-- submit_all.sh              # Convenience: generate + submit all
 |
 |-- docs/                          # Documentation
@@ -334,56 +333,64 @@ All SLURM scripts are configured for the **University of Arizona Puma cluster**:
 | Setting | Value | Notes |
 |---------|-------|-------|
 | **Cluster** | Puma | AMD EPYC 7642, Rocky Linux 9 |
-| **GPU Partition** | `gpu_standard` | Requires `--account=YOUR_GROUP` |
-| **GPU Type** | NVIDIA V100S | 32 GB VRAM, request via `--gres=gpu:volta:1` |
-| **CUDA Module** | `cuda11/11.8` | Loaded in all scripts |
-| **Python Env** | micromamba | `micromamba activate qcbai` |
-| **Model Storage** | `/xdisk/` | Avoid 50GB `/home` limit |
-| **Max Walltime** | 10 days | Scripts use 48-72h |
+| **GPU Partition** | `gpu_standard` | `--account=tylermillhouse` |
+| **GPUs** | 2x NVIDIA V100S | 32 GB VRAM each (64 GB total), `--gres=gpu:2` |
+| **CUDA Modules** | `cuda11 cuda11-sdk cuda11-dnn` | Loaded in all scripts |
+| **Python Env** | micromamba | `/groups/tylermillhouse/micromamba_envs/myenv` |
+| **Ollama** | Singularity container | `singularity exec --nv` with models at `/groups/tylermillhouse/ollama/models` |
+| **Project Dir** | `/groups/tylermillhouse/capstoneproject/Quantifying-Cognitive-Bias-in-LLMs` | Hardcoded in scripts |
+| **Max Walltime** | 4 days per job | Configurable in SLURM headers |
 
-**Before first use:** Update `--account=YOUR_GROUP` in all `.slurm` files with your PI group name.
+### Architecture: Self-Contained Jobs
+
+Each SLURM job is **fully self-contained** — it starts its own Ollama server via Singularity, runs the experiment, and cleans up:
+
+```
+SLURM Job (one per game×model pair)
+  ├── Load modules (python/3.11, cuda11, micromamba)
+  ├── Activate micromamba environment
+  ├── Start Ollama via Singularity (background process)
+  │     └── singularity exec --nv ... ollama serve &
+  ├── Run python3 main.py --game <game> --model <model> --concurrent 8
+  │     └── asyncio fires 8 concurrent requests per prompt batch
+  └── Kill Ollama on completion
+```
+
+No separate Ollama server job is needed.
 
 ### Step-by-Step Workflow
 
 ```bash
-# ---- Step 1: Start Ollama server on a GPU node ----
-sbatch slurm/start_ollama.slurm
-
-# Check the log for the assigned hostname:
-cat slurm/logs/ollama_<jobid>.out
-# Look for: "Connect from experiment jobs with:
-#   export OLLAMA_HOST=http://<hostname>:11434"
-
-# ---- Step 2: Set OLLAMA_HOST ----
-export OLLAMA_HOST=http://<hostname>:11434
-
-# ---- Step 3: Submit experiments ----
-
-# Option A: All 7 games via job array (recommended)
+# ---- Option A: Run all 49 jobs (7 games × 7 models) ----
 bash slurm/submit_all.sh
 
-# Option B: Single game
-sbatch slurm/run_single_game.slurm prisoners_dilemma
+# ---- Option B: Run with a test first ----
+bash slurm/submit_all.sh --test     # 1 job: prisoners_dilemma + llama3.2:latest
+bash slurm/submit_all.sh            # then submit all 49
 
-# Option C: Single game, specific model
-sbatch slurm/run_single_game.slurm dictator_game llama3.2:latest
+# ---- Option C: Single game + model ----
+sbatch slurm/run_single_game.slurm prisoners_dilemma llama3.2:latest
+
+# ---- Option D: Single game, all models (sequential swap in one job) ----
+sbatch slurm/run_single_game.slurm prisoners_dilemma
 ```
 
 ### SLURM Scripts Reference
 
 | Script | Purpose | Resources |
 |--------|---------|-----------|
-| `start_ollama.slurm` | Launch Ollama server on Puma GPU node | 1x V100S, 64gb, 8 CPUs, 72h |
-| `run_all_games.slurm` | Job array (indices 0-6) for all 7 games | 1x V100S, 32gb, 4 CPUs, 48h each |
-| `run_single_game.slurm` | Single game experiment job | 1x V100S, 32gb, 4 CPUs, 48h |
+| `run_all_games.slurm` | 2D job array: 7 games × 7 models = 49 jobs | 2x V100S, 28 tasks, 8gb/cpu, 4 days |
+| `run_single_game.slurm` | Single (game, model) experiment job | 2x V100S, 28 tasks, 8gb/cpu, 4 days |
 | `submit_all.sh` | Generate prompts + submit job array | Runs on login node |
 
-### Job Array Mapping
+### 2D Job Array Mapping
 
-The `run_all_games.slurm` maps `$SLURM_ARRAY_TASK_ID` to games:
+The `run_all_games.slurm` uses a **2D index** where `index = game_idx × 7 + model_idx`:
 
-| Index | Game |
-|:-----:|------|
+**Games (rows):**
+
+| Game Index | Game Key |
+|:----------:|----------|
 | 0 | `prisoners_dilemma` |
 | 1 | `dictator_game` |
 | 2 | `chicken_game` |
@@ -392,18 +399,44 @@ The `run_all_games.slurm` maps `$SLURM_ARRAY_TASK_ID` to games:
 | 5 | `ultimatum_game` |
 | 6 | `trust_game` |
 
+**Models (columns):**
+
+| Model Index | Model | VRAM |
+|:-----------:|-------|-----:|
+| 0 | `llama3.2:latest` | 2 GB |
+| 1 | `mistral:latest` | 4.1 GB |
+| 2 | `llama3.3:latest` | 42 GB |
+| 3 | `mistral-small3.1:latest` | 15 GB |
+| 4 | `phi4:latest` | 9.1 GB |
+| 5 | `gemma3:27b` | 17 GB |
+| 6 | `qwen2.5:32b` | 19 GB |
+
+**Example indices:**
+
+| Array Index | Game | Model |
+|:-----------:|------|-------|
+| 0 | prisoners_dilemma | llama3.2:latest |
+| 6 | prisoners_dilemma | qwen2.5:32b |
+| 7 | dictator_game | llama3.2:latest |
+| 48 | trust_game | qwen2.5:32b |
+
+To run a subset, override the array range:
+```bash
+# All models for prisoners_dilemma only (game index 0)
+sbatch --array=0-6 slurm/run_all_games.slurm
+
+# Only llama3.2 (model index 0) across all games
+sbatch --array=0,7,14,21,28,35,42 slurm/run_all_games.slurm
+```
+
 ### Before You Submit (Checklist)
 
-1. Update `--account=YOUR_GROUP` in all `.slurm` files
-2. Create your micromamba environment: `micromamba create -n qcbai python=3.11`
-3. Install requirements: `pip install -r requirements.txt`
-4. Set Ollama model storage path in `~/.bashrc`:
-   ```bash
-   export OLLAMA_MODELS="/xdisk/YOUR_PI_GROUP/$USER/.ollama/models"
-   ```
-5. Start Ollama server first and note the hostname
-6. Set `OLLAMA_HOST` before submitting experiment jobs
-7. Create log directory: `mkdir -p slurm/logs`
+1. Ensure micromamba env exists at `/groups/tylermillhouse/micromamba_envs/myenv`
+2. Verify requirements: `pip install -r requirements.txt`
+3. Confirm Singularity image: `ls /groups/tylermillhouse/ollama/image/ollama.sif`
+4. Confirm Ollama models: `ls /groups/tylermillhouse/ollama/models/`
+5. Create log directory: `mkdir -p slurm/logs`
+6. Test with a single job first: `bash slurm/submit_all.sh --test`
 
 ### Monitoring and Troubleshooting
 
@@ -435,11 +468,13 @@ scancel <job_id>
 | Issue | Solution |
 |-------|----------|
 | `conda: command not found` | Use `micromamba` instead (anaconda is deprecated) |
-| `sbatch: error: Batch job submission failed: Invalid account` | Update `--account=YOUR_GROUP` in `.slurm` files |
-| Out of disk space on `/home` | Move models/caches to `/xdisk` or `/groups` |
-| `No module named 'ollama'` | Activate environment: `source ~/.bashrc && micromamba activate qcbai` |
+| `sbatch: error: Batch job submission failed: Invalid account` | Ensure `--account=tylermillhouse` is correct |
+| Out of disk space on `/home` | Move models/caches to `/groups` or `/xdisk` |
+| `No module named 'ollama'` | Activate environment: `eval "$(micromamba shell hook --shell bash)" && micromamba activate /groups/tylermillhouse/micromamba_envs/myenv` |
 | GPU job pending long time | Try `gpu_windfall` partition (preemptible but starts faster) |
-| Ollama connection refused | Check that `OLLAMA_HOST` matches the server node hostname |
+| Ollama connection refused | Increase `sleep 10` wait time in SLURM script; check Singularity logs |
+| OOM on large models | Reduce `CONCURRENT` for 27B+ models (e.g., `CONCURRENT=4 sbatch ...`) |
+| 49 jobs too many for allocation | Submit in batches: `sbatch --array=0-6 ...` then `--array=7-13 ...` etc. |
 
 ---
 
@@ -488,15 +523,29 @@ Main Process
 
 For Ocelote P100 (16GB VRAM), use `--concurrent 4` max.
 
+### VRAM Tuning per Model (2x V100S = 64 GB)
+
+| Model | VRAM | Recommended `--concurrent` |
+|-------|-----:|:--------------------------:|
+| llama3.2:latest | 2 GB | 8-12 |
+| mistral:latest | 4.1 GB | 8 |
+| phi4:latest | 9.1 GB | 8 |
+| mistral-small3.1:latest | 15 GB | 8 |
+| gemma3:27b | 17 GB | 6-8 |
+| qwen2.5:32b | 19 GB | 4-6 |
+| llama3.3:latest | 42 GB | 2-4 |
+
+Override per job: `CONCURRENT=4 sbatch slurm/run_single_game.slurm trust_game llama3.3:latest`
+
 ### Performance Estimate
 
 | Scenario | Prompts | Runs | Concurrent | Total Calls | Est. Time |
 |----------|:-------:|:----:|:----------:|:-----------:|:---------:|
 | 1 game, 1 model | 79 | 100 | 8 | 7,900 | ~30 min |
-| 1 game, 2 models | 79 | 100 | 8 | 15,800 | ~1 hour |
-| 7 games, 2 models | 553 | 100 | 8 | 110,600 | ~7 hours* |
+| 1 game, 7 models | 79 | 100 | 8 | 55,300 | ~3.5 hours* |
+| 7 games, 7 models | 553 | 100 | 8 | 387,100 | ~24 hours* |
 
-*With SLURM job array, 7 games run in parallel on separate nodes --> ~1 hour wall-clock.*
+*With 2D SLURM job array (49 jobs), all (game, model) pairs run in parallel across nodes → ~30 min wall-clock if enough GPU nodes are available.*
 
 ---
 
@@ -508,25 +557,36 @@ Edit `qcbai/llm/models.yaml` to add, remove, or configure models:
 
 ```yaml
 ollama:
-  - name: "llama3.2:latest"
+  - name: "llama3.2:latest"       # 2 GB
     slug: "llama3.2"
     temperature: 0.7
 
-  - name: "mistral:latest"
+  - name: "mistral:latest"        # 4.1 GB
     slug: "mistral"
     temperature: 0.7
 
-  # Uncomment to enable additional models:
-  # - name: "llama3.3:latest"
-  #   slug: "llama3.3"
-  #   temperature: 0.7
-  # - name: "phi4:latest"
-  #   slug: "phi4"
-  #   temperature: 0.7
-  # - name: "gemma3:27b"
-  #   slug: "gemma3-27b"
-  #   temperature: 0.7
+  - name: "llama3.3:latest"       # 42 GB
+    slug: "llama3.3"
+    temperature: 0.7
+
+  - name: "mistral-small3.1:latest"  # 15 GB
+    slug: "mistral-small3.1"
+    temperature: 0.7
+
+  - name: "phi4:latest"           # 9.1 GB
+    slug: "phi4"
+    temperature: 0.7
+
+  - name: "gemma3:27b"            # 17 GB
+    slug: "gemma3-27b"
+    temperature: 0.7
+
+  - name: "qwen2.5:32b"           # 19 GB
+    slug: "qwen2.5-32b"
+    temperature: 0.7
 ```
+
+All 7 models are enabled by default. To disable a model, comment it out or remove it.
 
 ### Public Goods Game Settings
 

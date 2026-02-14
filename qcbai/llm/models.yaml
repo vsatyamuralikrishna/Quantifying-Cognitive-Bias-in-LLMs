@@ -1,19 +1,45 @@
 ollama:
+  # -----------------------------------------------------------
+  # All 7 models available on the cluster
+  #
+  # VRAM budget per model (2x V100S = ~64 GB total):
+  #   Small  (<5 GB):  llama3.2 (2 GB), mistral (4.1 GB)
+  #   Medium (9-19 GB): phi4 (9.1 GB), mistral-small3.1 (15 GB),
+  #                     gemma3:27b (17 GB), qwen2.5:32b (19 GB)
+  #   Large  (42 GB):  llama3.3 (42 GB)
+  #
+  # Concurrency note:
+  #   Ollama loads each model into VRAM on first call.
+  #   When running ALL models sequentially (no --model filter),
+  #   Ollama will swap models in/out as needed.
+  #   Use --model <name> to run a single model per job for
+  #   maximum concurrency.
+  # -----------------------------------------------------------
+
   - name: "llama3.2:latest"
     slug: "llama3.2"
     temperature: 0.7
+
   - name: "mistral:latest"
     slug: "mistral"
     temperature: 0.7
-  # - name: "llama3.3:latest"
-  #   slug: "llama3.3"
-  #   temperature: 0.7
-  # - name: "mistral-small3.1:latest"
-  #   slug: "mistral-small3.1"
-  #   temperature: 0.7
-  # - name: "phi4:latest"
-  #   slug: "phi4"
-  #   temperature: 0.7
-  # - name: "gemma3:27b"
-  #   slug: "gemma3-27b"
-  #   temperature: 0.7
+
+  - name: "llama3.3:latest"
+    slug: "llama3.3"
+    temperature: 0.7
+
+  - name: "mistral-small3.1:latest"
+    slug: "mistral-small3.1"
+    temperature: 0.7
+
+  - name: "phi4:latest"
+    slug: "phi4"
+    temperature: 0.7
+
+  - name: "gemma3:27b"
+    slug: "gemma3-27b"
+    temperature: 0.7
+
+  - name: "qwen2.5:32b"
+    slug: "qwen2.5-32b"
+    temperature: 0.7
