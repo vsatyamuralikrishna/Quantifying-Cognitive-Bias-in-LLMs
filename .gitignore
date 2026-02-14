@@ -160,3 +160,25 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# SLURM logs
+slurm/logs/
+
+# Experiment results and images (regenerated, large)
+results/
+images/
+
+# Generated prompts (regenerated via generate_prompts.py)
+prompts/
+
+# Analytics output (regenerated via analyze_results.py)
+analytics/
+
+# Old legacy files
+prisoner_logs*
+langfair
+model_config.json
