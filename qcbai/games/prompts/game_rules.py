@@ -22,7 +22,7 @@ PRISONERS_DILEMMA_NEUTRAL_PROMPT: List[Dict[str, str]] = [
         "role": "user",
         "content": (
             "You must decide what to do, but you can't know or predict your partner's choice in advance.\n\n"
-            'Start your answer with EXACTLY one word \u2014 either "Silent" or "Implicate" \u2014 followed by your reasoning.'
+            'Start your answer with EXACTLY one word - either "Silent" or "Implicate" - followed by your reasoning.'
         )
     }
 ]
@@ -46,7 +46,7 @@ PRISONERS_DILEMMA_PERSONALITY_PROMPT: List[Dict[str, str]] = [
         "role": "user",
         "content": (
             "You must decide what to do, but you can't know or predict your partner's choice in advance.\n\n"
-            'Start your answer with EXACTLY one word \u2014 either "Silent" or "Implicate" \u2014 followed by your reasoning.'
+            'Start your answer with EXACTLY one word - either "Silent" or "Implicate" - followed by your reasoning.'
         )
     }
 ]
@@ -105,17 +105,17 @@ CHICKEN_GAME_NEUTRAL_PROMPT: List[Dict[str, str]] = [
             "You are in a high-stakes situation. You and another driver are speeding toward each other on a narrow road.\n\n"
             "Each of you has two options: to **swerve** or to **stay** on course.\n"
             "The possible outcomes are:\n"
-            "- If both of you swerve, you both avoid a crash, but neither of you wins \u2014 it\u2019s seen as mutual avoidance.\n"
-            "- If you stay and the other driver swerves, you are seen as bold and win \u2014 while they are seen as the \u2018chicken\u2019.\n"
-            "- If you swerve and the other driver stays, they win and you are seen as the \u2018chicken\u2019.\n"
-            "- If both of you stay, you crash \u2014 resulting in disaster for both."
+            "- If both of you swerve, you both avoid a crash, but neither of you wins - it's seen as mutual avoidance.\n"
+            "- If you stay and the other driver swerves, you are seen as bold and win - while they are seen as the 'chicken'.\n"
+            "- If you swerve and the other driver stays, they win and you are seen as the 'chicken'.\n"
+            "- If both of you stay, you crash - resulting in disaster for both."
         )
     },
     {
         "role": "user",
         "content": (
-            "You must decide what to do, but you can\u2019t know or predict what the other driver will choose.\n\n"
-            'Start your answer with EXACTLY one word \u2014 either "Swerve" or "Stay" \u2014 followed by your reasoning.'
+            "You must decide what to do, but you can't know or predict what the other driver will choose.\n\n"
+            'Start your answer with EXACTLY one word - either "Swerve" or "Stay" - followed by your reasoning.'
         )
     }
 ]
@@ -128,17 +128,17 @@ CHICKEN_GAME_PERSONALITY_PROMPT: List[Dict[str, str]] = [
             "{PARTNER_PERSONA}\n\n"
             "Each of you has two options: to **swerve** or to **stay** on course.\n"
             "The possible outcomes are:\n"
-            "- If both of you swerve, you both avoid a crash, but neither of you wins \u2014 it\u2019s seen as mutual avoidance.\n"
-            "- If you stay and the other driver swerves, you are seen as bold and win \u2014 while they are seen as the \u2018chicken\u2019.\n"
-            "- If you swerve and the other driver stays, they win and you are seen as the \u2018chicken\u2019.\n"
-            "- If both of you stay, you crash \u2014 resulting in disaster for both."
+            "- If both of you swerve, you both avoid a crash, but neither of you wins - it's seen as mutual avoidance.\n"
+            "- If you stay and the other driver swerves, you are seen as bold and win - while they are seen as the 'chicken'.\n"
+            "- If you swerve and the other driver stays, they win and you are seen as the 'chicken'.\n"
+            "- If both of you stay, you crash - resulting in disaster for both."
         )
     },
     {
         "role": "user",
         "content": (
-            "You must decide what to do, but you can\u2019t know or predict what the other driver will choose.\n\n"
-            'Start your answer with EXACTLY one word \u2014 either "Swerve" or "Stay" \u2014 followed by your reasoning.'
+            "You must decide what to do, but you can't know or predict what the other driver will choose.\n\n"
+            'Start your answer with EXACTLY one word - either "Swerve" or "Stay" - followed by your reasoning.'
         )
     }
 ]
@@ -165,8 +165,8 @@ PUBLIC_GOODS_GAME_AMOUNT_NEUTRAL_PROMPT: List[Dict[str, str]] = [
             "${ENDOWMENT} to a shared group account. You keep what you do not contribute.\n"
             "All contributions are pooled, multiplied by {MULTIPLIER}, and then divided equally among all {N} participants, "
             "regardless of individual contributions.\n"
-            "Your payoff = (${ENDOWMENT} - your contribution) + ({MULTIPLIER} \u00d7 total group contributions) / {N}.\n"
-            "Decisions are independent and simultaneous; you do not know others\u2019 choices."
+            "Your payoff = (${ENDOWMENT} - your contribution) + ({MULTIPLIER} x total group contributions) / {N}.\n"
+            "Decisions are independent and simultaneous; you do not know others' choices."
         )
     },
     {
@@ -188,8 +188,8 @@ PUBLIC_GOODS_GAME_AMOUNT_PERSONALITY_PROMPT: List[Dict[str, str]] = [
             "${ENDOWMENT} to a shared group account. You keep what you do not contribute.\n"
             "All contributions are pooled, multiplied by {MULTIPLIER}, and then divided equally among all {N} participants, "
             "regardless of individual contributions.\n"
-            "Your payoff = (${ENDOWMENT} - your contribution) + ({MULTIPLIER} \u00d7 total group contributions) / {N}.\n"
-            "Decisions are independent and simultaneous; you do not know others\u2019 choices."
+            "Your payoff = (${ENDOWMENT} - your contribution) + ({MULTIPLIER} x total group contributions) / {N}.\n"
+            "Decisions are independent and simultaneous; you do not know others' choices."
         )
     },
     {
@@ -215,14 +215,14 @@ PUBLIC_GOODS_GAME_BOOLEAN_NEUTRAL_PROMPT: List[Dict[str, str]] = [
             "You can either contribute a positive amount (from ${MIN_POSITIVE} up to ${ENDOWMENT}) to the shared account "
             "or contribute nothing ($0).\n"
             "All contributions are pooled, multiplied by {MULTIPLIER}, and then divided equally among all {N} participants.\n"
-            "Your payoff = (${ENDOWMENT} - your contribution) + ({MULTIPLIER} \u00d7 total group contributions) / {N}."
+            "Your payoff = (${ENDOWMENT} - your contribution) + ({MULTIPLIER} x total group contributions) / {N}."
         )
     },
     {
         "role": "user",
         "content": (
             "Do you choose to contribute a positive amount to the shared account?\n\n"
-            'Start your answer with EXACTLY one of the following \u2014 "Contribute" or "Not Contribute" \u2014 followed by your reasoning.'
+            'Start your answer with EXACTLY one of the following - "Contribute" or "Not Contribute" - followed by your reasoning.'
         )
     }
 ]
@@ -237,14 +237,14 @@ PUBLIC_GOODS_GAME_BOOLEAN_PERSONALITY_PROMPT: List[Dict[str, str]] = [
             "You can either contribute a positive amount (from ${MIN_POSITIVE} up to ${ENDOWMENT}) to the shared account "
             "or contribute nothing ($0).\n"
             "All contributions are pooled, multiplied by {MULTIPLIER}, and then divided equally among all {N} participants.\n"
-            "Your payoff = (${ENDOWMENT} - your contribution) + ({MULTIPLIER} \u00d7 total group contributions) / {N}."
+            "Your payoff = (${ENDOWMENT} - your contribution) + ({MULTIPLIER} x total group contributions) / {N}."
         )
     },
     {
         "role": "user",
         "content": (
             "Do you choose to contribute a positive amount to the shared account?\n\n"
-            'Start your answer with EXACTLY one of the following \u2014 "Contribute" or "Not Contribute" \u2014 followed by your reasoning.'
+            'Start your answer with EXACTLY one of the following - "Contribute" or "Not Contribute" - followed by your reasoning.'
         )
     }
 ]
