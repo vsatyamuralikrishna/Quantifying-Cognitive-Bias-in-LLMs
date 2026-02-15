@@ -118,13 +118,21 @@ pip install -q --upgrade pip
 pip install -q -r requirements.txt
 
 echo ""
+echo "=== Environment Info ==="
 python3 --version
+echo ""
+echo "=== GPU Information ==="
 nvidia-smi -L
+echo ""
+nvidia-smi --query-gpu=name,memory.total,memory.free --format=csv,noheader
 echo ""
 
 # ---- Start Ollama server via Singularity ----
 echo "Starting Ollama server via Singularity..."
 export OLLAMA_NUM_PARALLEL=$CONCURRENT
+
+# GPU optimization: Set CUDA device visibility (use all available GPUs)
+export CUDA_VISIBLE_DEVICES=0,1  # Use both GPUs if available
 
 singularity exec --nv \
   --home /groups/tylermillhouse/ollama/home \
@@ -142,6 +150,10 @@ echo ""
 
 export OLLAMA_HOST="http://localhost:11434"
 
+# Start GPU monitoring in background (optional, for debugging)
+echo "Starting GPU monitoring..."
+nvidia-smi dmon -s u -c 1 > /dev/null 2>&1 || true
+
 # ---- Navigate to project directory (already done above) ----
 # PROJECT_DIR already set and cd done above
 
@@ -155,6 +167,9 @@ fi
 echo ""
 echo "Running experiment: $GAME with model $MODEL"
 echo "============================================"
+echo "GPU Status Before Run:"
+nvidia-smi --query-gpu=index,name,utilization.gpu,utilization.memory,memory.used,memory.total --format=csv,noheader
+echo ""
 
 python3 main.py \
     --game "$GAME" \
@@ -162,6 +177,11 @@ python3 main.py \
     --runs $RUNS \
     --temperature 0.7 \
     --concurrent $CONCURRENT
+
+echo ""
+echo "GPU Status After Run:"
+nvidia-smi --query-gpu=index,name,utilization.gpu,utilization.memory,memory.used,memory.total --format=csv,noheader
+echo ""
 
 # ---- Cleanup ----
 echo ""

@@ -57,8 +57,8 @@ def main():
         "--model-type",
         type=str,
         default="ollama",
-        choices=["ollama", "transformers", "all"],
-        help="Model backend type (default: ollama)",
+        choices=["ollama", "vllm", "transformers", "all"],
+        help="Model backend type (default: ollama). Use 'vllm' for batch inference (much faster).",
     )
     parser.add_argument(
         "--concurrent",

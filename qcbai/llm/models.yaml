@@ -14,6 +14,17 @@ ollama:
   #   Ollama will swap models in/out as needed.
   #   Use --model <name> to run a single model per job for
   #   maximum concurrency.
+  #
+  # vLLM Support:
+  #   These models can also be used with vLLM backend (--model-type vllm)
+  #   for much faster batch inference. vLLM automatically maps to Hugging Face:
+  #   - llama3.2:latest -> meta-llama/Llama-3.2-3B-Instruct
+  #   - mistral:latest -> mistralai/Mistral-7B-Instruct-v0.3
+  #   - llama3.3:latest -> meta-llama/Llama-3.3-70B-Instruct
+  #   - mistral-small3.1:latest -> mistralai/Mistral-Small-Instruct-3.1
+  #   - phi4:latest -> microsoft/Phi-4
+  #   - gemma3:27b -> google/gemma-2-27b-it
+  #   - qwen2.5:32b -> Qwen/Qwen2.5-32B-Instruct
   # -----------------------------------------------------------
 
   - name: "llama3.2:latest"

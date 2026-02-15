@@ -100,23 +100,43 @@ def run_prompt_with_model(
     """
     Run a prompt N times against a model.
 
-    When max_concurrent > 1, uses asyncio to fire concurrent async requests
-    to the Ollama server, significantly reducing wall-clock time.
-    When max_concurrent <= 1, falls back to simple sequential execution.
+    For vLLM models: Uses batch inference (all runs in one call) - much faster!
+    For Ollama models: Uses async concurrent requests when max_concurrent > 1.
 
     Args:
-        max_concurrent: Number of simultaneous async requests.
-                        Must match OLLAMA_NUM_PARALLEL on the server.
+        max_concurrent: For Ollama, number of simultaneous async requests.
+                        For vLLM, this is ignored (batching is automatic).
     """
     messages = prompt_data["prompt"]
 
-    if max_concurrent <= 1:
+    # Check if runner supports batch inference (vLLM)
+    if hasattr(runner, 'run_batch'):
+        # vLLM: Batch all runs together (100x faster!)
+        print(f"Using vLLM batch inference: {runs} runs in 1 batch call")
+        messages_list = [messages] * runs
+        responses = runner.run_batch(messages_list, temperature)
+        
+        # Convert to expected format
+        formatted_responses = []
+        for resp in responses:
+            formatted_responses.append({
+                "id": str(uuid.uuid4()),
+                "response_text": resp.get("text", ""),
+                "response": resp.get("raw"),
+                "decision": "",
+                "reason": resp.get("text", ""),
+                "response_time": 0.0,  # vLLM doesn't provide per-request timing
+                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            })
+        responses = formatted_responses
+    
+    elif max_concurrent <= 1:
         # Sequential (original behavior)
         responses = []
         for _ in range(runs):
             responses.append(_sync_single_run(runner, messages, temperature))
     else:
-        # Async concurrent execution
+        # Async concurrent execution (Ollama)
         try:
             loop = asyncio.get_running_loop()
         except RuntimeError:
