@@ -71,6 +71,7 @@ MODEL_IDX=$(( SLURM_ARRAY_TASK_ID % NUM_MODELS ))
 
 GAME=${GAMES[$GAME_IDX]}
 MODEL=${MODELS[$MODEL_IDX]}
+RUNS=${RUNS:-100}
 CONCURRENT=${CONCURRENT:-8}
 
 echo "============================================"
@@ -81,6 +82,7 @@ echo "Game Index:   $GAME_IDX  → $GAME"
 echo "Model Index:  $MODEL_IDX → $MODEL"
 echo "Cluster:      $SLURM_CLUSTER_NAME"
 echo "Node:         $HOSTNAME"
+echo "Runs:         $RUNS"
 echo "Concurrent:   $CONCURRENT"
 echo "Start:        $(date)"
 echo "============================================"
@@ -145,7 +147,7 @@ echo "============================================"
 python3 main.py \
     --game "$GAME" \
     --model "$MODEL" \
-    --runs 100 \
+    --runs $RUNS \
     --temperature 0.7 \
     --concurrent $CONCURRENT
 

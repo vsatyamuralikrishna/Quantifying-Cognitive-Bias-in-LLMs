@@ -24,14 +24,20 @@
 #   sbatch slurm/run_single_game.slurm prisoners_dilemma llama3.2:latest
 #   sbatch slurm/run_single_game.slurm chicken_game mistral:latest
 #   sbatch slurm/run_single_game.slurm trust_game   # runs ALL models (sequential swap)
+#   RUNS=25 CONCURRENT=5 sbatch slurm/run_single_game.slurm chicken_game llama3.3:latest
 #
 # Args:
 #   $1 = game key (required)
 #   $2 = model name (optional; if omitted, runs all models sequentially)
+#
+# Environment overrides:
+#   RUNS=25         Number of runs per prompt (default: 100)
+#   CONCURRENT=5    Max concurrent async requests (default: 8)
 # ============================================================
 
 GAME=${1:?"Usage: sbatch slurm/run_single_game.slurm <game_key> [model_name]"}
 MODEL=${2:-""}
+RUNS=${RUNS:-100}
 CONCURRENT=${CONCURRENT:-8}
 
 echo "============================================"
@@ -41,6 +47,7 @@ echo "Cluster:     $SLURM_CLUSTER_NAME"
 echo "Node:        $HOSTNAME"
 echo "Game:        $GAME"
 echo "Model:       ${MODEL:-all (sequential)}"
+echo "Runs:        $RUNS"
 echo "Concurrent:  $CONCURRENT"
 echo "Start:       $(date)"
 echo "============================================"
@@ -103,9 +110,9 @@ echo "Running experiment: $GAME"
 echo "============================================"
 
 if [ -n "$MODEL" ]; then
-    python3 main.py --game "$GAME" --model "$MODEL" --runs 100 --temperature 0.7 --concurrent $CONCURRENT
+    python3 main.py --game "$GAME" --model "$MODEL" --runs $RUNS --temperature 0.7 --concurrent $CONCURRENT
 else
-    python3 main.py --game "$GAME" --runs 100 --temperature 0.7 --concurrent $CONCURRENT
+    python3 main.py --game "$GAME" --runs $RUNS --temperature 0.7 --concurrent $CONCURRENT
 fi
 
 # ---- Cleanup ----
