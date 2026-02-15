@@ -1,0 +1,19 @@
+name: qcbai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  # Core packages (conda will auto-install transitive dependencies)
+  - numpy>=1.24
+  - matplotlib>=3.7
+  - pydantic>=2.10.0
+  - tqdm>=4.67.0
+  - pyyaml>=6.0
+  - pip
+  - pip:
+    # Packages not available in conda-forge
+    - ollama>=0.1.0
+    # Optional packages (uncomment if needed):
+    # - openai>=1.59.0
+    # - python-dotenv>=1.0.0

@@ -53,9 +53,9 @@ echo "Start:       $(date)"
 echo "============================================"
 
 # ---- Load modules ----
-module load python/3.11
+module load anaconda/2024.06
 module load cuda11 cuda11-sdk cuda11-dnn
-module load micromamba
+module load gnu8/8.3.0  # For C++17 support if needed
 
 export CUDA_DIR=/opt/ohpc/pub/apps/cuda/11.8/
 export XLA_FLAGS=--xla_gpu_cuda_data_dir=/opt/ohpc/pub/apps/cuda/11.8/
@@ -65,9 +65,22 @@ export HF_HOME=/groups/tylermillhouse/huggingface
 export TRANSFORMERS_CACHE=/groups/tylermillhouse/huggingface
 export HF_DATASETS_CACHE=/groups/tylermillhouse/huggingface/datasets
 
-# ---- Activate micromamba environment ----
-eval "$(micromamba shell hook --shell bash)"
-micromamba activate /groups/tylermillhouse/micromamba_envs/myenv
+# ---- Set project directory ----
+PROJECT_DIR="/groups/tylermillhouse/capstoneproject/Quantifying-Cognitive-Bias-in-LLMs"
+cd "$PROJECT_DIR" || exit 1
+
+# ---- Activate conda environment ----
+source $(conda info --base)/etc/profile.d/conda.sh
+conda activate qcbai
+
+# ---- Install/update packages from requirements.txt ----
+
+echo "Installing packages from requirements.txt..."
+# Install conda packages first (pre-built binaries, faster)
+conda install -c conda-forge -y numpy matplotlib pydantic tqdm pyyaml || true
+# Install remaining packages via pip
+pip install -q --upgrade pip
+pip install -q -r requirements.txt
 
 echo ""
 python3 --version
@@ -94,9 +107,8 @@ echo ""
 
 export OLLAMA_HOST="http://localhost:11434"
 
-# ---- Navigate to project directory ----
-PROJECT_DIR="/groups/tylermillhouse/capstoneproject/Quantifying-Cognitive-Bias-in-LLMs"
-cd "$PROJECT_DIR" || exit 1
+# ---- Navigate to project directory (already done above) ----
+# PROJECT_DIR already set and cd done above
 
 # ---- Generate prompts if not present ----
 if [ ! -d "prompts/$GAME" ]; then
