@@ -173,7 +173,7 @@ results/
 images/
 
 # Generated prompts (regenerated via generate_prompts.py)
-prompts/
+/prompts/
 
 # Analytics output (regenerated via analyze_results.py)
 /analytics/
