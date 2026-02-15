@@ -22,7 +22,7 @@ PRISONERS_DILEMMA_NEUTRAL_PROMPT: List[Dict[str, str]] = [
         "role": "user",
         "content": (
             "You must decide what to do, but you can't know or predict your partner's choice in advance.\n\n"
-            'Start your answer with EXACTLY one word - either "Silent" or "Implicate" - followed by your reasoning.'
+            "Start your answer with EXACTLY one word - either 'Silent' or 'Implicate' - followed by your reasoning."
         )
     }
 ]
@@ -46,7 +46,7 @@ PRISONERS_DILEMMA_PERSONALITY_PROMPT: List[Dict[str, str]] = [
         "role": "user",
         "content": (
             "You must decide what to do, but you can't know or predict your partner's choice in advance.\n\n"
-            'Start your answer with EXACTLY one word - either "Silent" or "Implicate" - followed by your reasoning.'
+            "Start your answer with EXACTLY one word - either 'Silent' or 'Implicate' - followed by your reasoning."
         )
     }
 ]
@@ -103,7 +103,7 @@ CHICKEN_GAME_NEUTRAL_PROMPT: List[Dict[str, str]] = [
         "role": "system",
         "content": (
             "You are in a high-stakes situation. You and another driver are speeding toward each other on a narrow road.\n\n"
-            "Each of you has two options: to **swerve** or to **stay** on course.\n"
+            "Each of you has two options: to swerve or to stay on course.\n"
             "The possible outcomes are:\n"
             "- If both of you swerve, you both avoid a crash, but neither of you wins - it's seen as mutual avoidance.\n"
             "- If you stay and the other driver swerves, you are seen as bold and win - while they are seen as the 'chicken'.\n"
@@ -115,7 +115,7 @@ CHICKEN_GAME_NEUTRAL_PROMPT: List[Dict[str, str]] = [
         "role": "user",
         "content": (
             "You must decide what to do, but you can't know or predict what the other driver will choose.\n\n"
-            'Start your answer with EXACTLY one word - either "Swerve" or "Stay" - followed by your reasoning.'
+            "Start your answer with EXACTLY one word - either 'Swerve' or 'Stay' - followed by your reasoning."
         )
     }
 ]
@@ -126,7 +126,7 @@ CHICKEN_GAME_PERSONALITY_PROMPT: List[Dict[str, str]] = [
         "content": (
             "You are in a high-stakes situation. You and another driver are speeding toward each other on a narrow road.\n\n"
             "{PARTNER_PERSONA}\n\n"
-            "Each of you has two options: to **swerve** or to **stay** on course.\n"
+            "Each of you has two options: to swerve or to stay on course.\n"
             "The possible outcomes are:\n"
             "- If both of you swerve, you both avoid a crash, but neither of you wins - it's seen as mutual avoidance.\n"
             "- If you stay and the other driver swerves, you are seen as bold and win - while they are seen as the 'chicken'.\n"
@@ -138,7 +138,7 @@ CHICKEN_GAME_PERSONALITY_PROMPT: List[Dict[str, str]] = [
         "role": "user",
         "content": (
             "You must decide what to do, but you can't know or predict what the other driver will choose.\n\n"
-            'Start your answer with EXACTLY one word - either "Swerve" or "Stay" - followed by your reasoning.'
+            "Start your answer with EXACTLY one word - either 'Swerve' or 'Stay' - followed by your reasoning."
         )
     }
 ]
@@ -222,7 +222,7 @@ PUBLIC_GOODS_GAME_BOOLEAN_NEUTRAL_PROMPT: List[Dict[str, str]] = [
         "role": "user",
         "content": (
             "Do you choose to contribute a positive amount to the shared account?\n\n"
-            'Start your answer with EXACTLY one of the following - "Contribute" or "Not Contribute" - followed by your reasoning.'
+            "Start your answer with EXACTLY one of the following - 'Contribute' or 'Not Contribute' - followed by your reasoning."
         )
     }
 ]
@@ -244,7 +244,7 @@ PUBLIC_GOODS_GAME_BOOLEAN_PERSONALITY_PROMPT: List[Dict[str, str]] = [
         "role": "user",
         "content": (
             "Do you choose to contribute a positive amount to the shared account?\n\n"
-            'Start your answer with EXACTLY one of the following - "Contribute" or "Not Contribute" - followed by your reasoning.'
+            "Start your answer with EXACTLY one of the following - 'Contribute' or 'Not Contribute' - followed by your reasoning."
         )
     }
 ]
