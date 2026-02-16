@@ -1,11 +1,19 @@
 import os
-from typing import List, Dict, Any
+import random
+from typing import List, Dict, Any, Optional
 from qcbai.llm.base import ModelRunner
 from pathlib import Path
 import yaml
 import ollama
 
 MODEL_CONFIG_PATH = Path(__file__).parent / "models.yaml"
+
+
+def _get_ollama_host() -> str:
+    host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+    if not host.startswith("http://") and not host.startswith("https://"):
+        host = f"http://{host}"
+    return host
 
 
 class OllamaModel(ModelRunner):
@@ -15,6 +23,7 @@ class OllamaModel(ModelRunner):
         self.name = name
         self.slug = slug
         self.temperature = temperature
+        self._async_client: Optional[ollama.AsyncClient] = None
 
     def get_name(self) -> str:
         return self.name
@@ -25,13 +34,21 @@ class OllamaModel(ModelRunner):
     def get_metadata(self) -> Dict[str, Any]:
         return {"temperature": self.temperature}
 
+    def get_async_client(self) -> ollama.AsyncClient:
+        if self._async_client is None:
+            self._async_client = ollama.AsyncClient(host=_get_ollama_host())
+        return self._async_client
+
     def run_prompt(self, messages: List[Dict[str, str]], temperature: float = 0.7) -> Dict[str, Any]:
         """Synchronous LLM call via ollama.chat()."""
         try:
             response = ollama.chat(
                 model=self.name,
                 messages=messages,
-                options={"temperature": temperature},
+                options={
+                    "temperature": temperature,
+                    "seed": random.randint(0, 2**31 - 1),
+                },
             )
             return {
                 "text": response.get("message", {}).get("content", ""),
@@ -41,16 +58,16 @@ class OllamaModel(ModelRunner):
             return {"text": "", "error": str(e)}
 
     async def arun_prompt(self, messages: List[Dict[str, str]], temperature: float = 0.7) -> Dict[str, Any]:
-        """Async LLM call via ollama.AsyncClient for concurrent execution."""
+        """Async LLM call via shared AsyncClient for concurrent execution."""
         try:
-            host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-            if not host.startswith("http://") and not host.startswith("https://"):
-                host = f"http://{host}"
-            client = ollama.AsyncClient(host=host)
+            client = self.get_async_client()
             response = await client.chat(
                 model=self.name,
                 messages=messages,
-                options={"temperature": temperature},
+                options={
+                    "temperature": temperature,
+                    "seed": random.randint(0, 2**31 - 1),
+                },
             )
             return {
                 "text": response.get("message", {}).get("content", ""),

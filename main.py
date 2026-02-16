@@ -13,6 +13,7 @@ Usage:
 """
 
 import sys
+import asyncio
 import argparse
 from pathlib import Path
 
@@ -20,12 +21,12 @@ ROOT = Path(__file__).parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from qcbai.analytics.runner import run_all_experiments
+from qcbai.analytics.runner import run_all_experiments_async
 from qcbai.llm.registry import get_all_model_runners
 from qcbai.games.game_config import GAME_CONFIGS, ALL_GAME_KEYS, get_game_config
 
 
-def main():
+async def main_async():
     parser = argparse.ArgumentParser(
         description="Run LLM bias experiments for game-theory scenarios"
     )
@@ -71,13 +72,11 @@ def main():
     )
     args = parser.parse_args()
 
-    # Determine which games to run
     if args.game == "all":
         games_to_run = ALL_GAME_KEYS
     else:
         games_to_run = [args.game]
 
-    # Load models
     all_runners = get_all_model_runners(args.model_type)
     if args.model:
         runners = [r for r in all_runners if args.model in r.get_name()]
@@ -93,7 +92,6 @@ def main():
     print(f"Concurrent: {args.concurrent} async requests")
     print(f"Temp:       {args.temperature}")
 
-    # Run each game
     for game_key in games_to_run:
         game_config = get_game_config(game_key)
 
@@ -114,7 +112,7 @@ def main():
         print(f"  Images:   {images_dir}")
         print(f"{'='*60}")
 
-        run_all_experiments(
+        await run_all_experiments_async(
             prompt_dir=prompt_dir,
             results_dir=results_dir,
             all_results_file=all_results_file,
@@ -131,4 +129,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main_async())

@@ -2,7 +2,6 @@ import json
 import uuid
 import time
 import asyncio
-import random
 from pathlib import Path
 from typing import List
 from tqdm import tqdm
@@ -19,11 +18,10 @@ def load_prompt_files(prompt_dir: Path) -> List[Path]:
 
 
 async def _async_single_run(runner: ModelRunner, messages: list, temperature: float, run_idx: int) -> dict:
-    """Execute a single async LLM call. Used for concurrent batches."""
-    start_time = time.time()
-    await asyncio.sleep(random.uniform(0.001, 0.01))
+    """Execute a single async LLM call."""
+    start_time = time.perf_counter()
     output = await runner.arun_prompt(messages, temperature=temperature)
-    end_time = time.time()
+    end_time = time.perf_counter()
 
     return {
         "id": str(uuid.uuid4()),
@@ -37,108 +35,54 @@ async def _async_single_run(runner: ModelRunner, messages: list, temperature: fl
     }
 
 
-def _sync_single_run(runner: ModelRunner, messages: list, temperature: float, run_idx: int) -> dict:
-    """Execute a single synchronous LLM call. Used for sequential mode."""
-    start_time = time.time()
-    output = runner.run_prompt(messages, temperature=temperature)
-    end_time = time.time()
-
-    return {
-        "id": str(uuid.uuid4()),
-        "response_text": output.get("text", ""),
-        "response": output.get("response", None),
-        "decision": output.get("decision", ""),
-        "reason": output.get("reason", ""),
-        "response_time": round(end_time - start_time, 4),
-        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "run_index": run_idx,
-    }
-
-
-async def _run_concurrent_batch(
-    runner: ModelRunner,
-    messages: list,
-    temperature: float,
-    runs: int,
-    max_concurrent: int,
-) -> list:
-    """
-    Fire N async LLM calls with a concurrency limit using asyncio.Semaphore.
-
-    This is the core concurrency engine:
-    - Creates a semaphore with max_concurrent slots
-    - Launches all N runs as async tasks
-    - Semaphore ensures at most max_concurrent are in-flight at once
-    - Results are collected in order via asyncio.gather
-    """
-    semaphore = asyncio.Semaphore(max_concurrent)
-
-    async def _limited_run(idx: int) -> dict:
-        async with semaphore:
-            try:
-                return await _async_single_run(runner, messages, temperature, idx)
-            except Exception as e:
-                return {
-                    "id": str(uuid.uuid4()),
-                    "response_text": "",
-                    "response": None,
-                    "decision": "",
-                    "reason": f"Error: {e}",
-                    "response_time": 0.0,
-                    "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-                    "run_index": idx,
-                }
-
-    tasks = [_limited_run(i) for i in range(runs)]
-    return await asyncio.gather(*tasks)
-
-
-def run_prompt_with_model(
+async def run_prompt_with_model_async(
     runner: ModelRunner,
     model_type: str,
     prompt_data: dict,
     game_config: GameConfig,
     runs: int,
     temperature: float,
-    max_concurrent: int = 1,
+    batch_size: int = 5,
 ) -> ExperimentResult:
     """
-    Run a prompt N times against a model.
+    Run a prompt N times against a model using async batched execution.
 
-    When max_concurrent > 1, uses asyncio to fire concurrent async requests
-    to the Ollama server, significantly reducing wall-clock time.
-    When max_concurrent <= 1, falls back to simple sequential execution.
-
-    Args:
-        max_concurrent: Number of simultaneous async requests.
-                        Must match OLLAMA_NUM_PARALLEL on the server.
+    Processes runs in batches (like the working pattern):
+    - Each batch fires batch_size concurrent requests via asyncio.gather
+    - Small sleep between batches to avoid overwhelming the server
+    - All runs happen within the SAME event loop (no asyncio.run per prompt)
     """
     messages = prompt_data["prompt"]
+    responses = []
+    num_batches = (runs + batch_size - 1) // batch_size
 
-    if max_concurrent <= 1:
-        # Sequential (original behavior)
-        responses = []
-        for i in range(runs):
-            responses.append(_sync_single_run(runner, messages, temperature, i))
-    else:
-        # Async concurrent execution
-        try:
-            loop = asyncio.get_running_loop()
-        except RuntimeError:
-            loop = None
+    for batch_idx in range(num_batches):
+        batch_start = batch_idx * batch_size
+        batch_end = min(batch_start + batch_size, runs)
+        batch_iters = list(range(batch_start, batch_end))
 
-        if loop and loop.is_running():
-            # Already inside an event loop (e.g. Jupyter notebook)
-            # Fall back to thread-based execution
-            import nest_asyncio
-            nest_asyncio.apply()
-            responses = list(asyncio.get_event_loop().run_until_complete(
-                _run_concurrent_batch(runner, messages, temperature, runs, max_concurrent)
-            ))
-        else:
-            responses = list(asyncio.run(
-                _run_concurrent_batch(runner, messages, temperature, runs, max_concurrent)
-            ))
+        tasks = [
+            _async_single_run(runner, messages, temperature, i)
+            for i in batch_iters
+        ]
+        batch_results = await asyncio.gather(*tasks, return_exceptions=False)
+
+        for result in batch_results:
+            if isinstance(result, Exception):
+                responses.append({
+                    "id": str(uuid.uuid4()),
+                    "response_text": "",
+                    "response": None,
+                    "decision": "",
+                    "reason": f"Error: {result}",
+                    "response_time": 0.0,
+                    "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+                })
+            else:
+                responses.append(result)
+
+        if batch_idx < num_batches - 1:
+            await asyncio.sleep(0.1)
 
     return create_result_entry(
         model_slug=runner.get_slug(),
@@ -182,27 +126,23 @@ def save_result(result: ExperimentResult, results_dir: Path, combined_path: Path
         results/<game_key>/<model_slug>/all_results.json     (combined for this model)
         results/<game_key>/all_results.json                  (combined across all models)
     """
-    # Create model-specific subdirectory under game results
     model_dir = results_dir / result.model_slug
     model_dir.mkdir(parents=True, exist_ok=True)
     combined_path.parent.mkdir(parents=True, exist_ok=True)
 
     result_dict = result.dict()
 
-    # Save individual result under model subdirectory
     filename = f"{result.prompt_id}.json"
     with open(model_dir / filename, "w") as f:
         json.dump(result_dict, f, indent=2)
 
-    # Append to per-model combined results
     model_combined_path = model_dir / "all_results.json"
     _append_to_json_file(model_combined_path, result_dict)
 
-    # Append to game-level combined results (across all models)
     _append_to_json_file(combined_path, result_dict)
 
 
-def run_all_experiments(
+async def run_all_experiments_async(
     prompt_dir: Path,
     results_dir: Path,
     all_results_file: Path,
@@ -216,11 +156,7 @@ def run_all_experiments(
 ):
     """
     Run experiments for a single game across all models and prompts.
-
-    Args:
-        max_concurrent: Number of concurrent async requests per prompt batch.
-                        Set to 1 for sequential, 4-8 for concurrent on HPC.
-                        Ollama server must have OLLAMA_NUM_PARALLEL >= max_concurrent.
+    Fully async: runs inside a single event loop with batched execution.
     """
     prompt_files = load_prompt_files(prompt_dir)
     total_prompts = len(prompt_files)
@@ -240,9 +176,9 @@ def run_all_experiments(
             with open(prompt_path, "r") as f:
                 prompt_data = json.load(f)
 
-            result = run_prompt_with_model(
+            result = await run_prompt_with_model_async(
                 runner, model_type, prompt_data, game_config,
-                runs, temperature, max_concurrent=max_concurrent,
+                runs, temperature, batch_size=max_concurrent,
             )
             save_result(result, results_dir, all_results_file)
 
