@@ -1,5 +1,4 @@
 import os
-import random
 from typing import List, Dict, Any
 from qcbai.llm.base import ModelRunner
 from pathlib import Path
@@ -32,12 +31,7 @@ class OllamaModel(ModelRunner):
             response = ollama.chat(
                 model=self.name,
                 messages=messages,
-                options={
-                    "temperature": temperature,
-                    "seed": random.randint(1, 2**31 - 1),
-                    "top_p": 0.9,
-                    "top_k": 40,
-                },
+                options={"temperature": temperature},
             )
             return {
                 "text": response.get("message", {}).get("content", ""),
@@ -50,16 +44,13 @@ class OllamaModel(ModelRunner):
         """Async LLM call via ollama.AsyncClient for concurrent execution."""
         try:
             host = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+            if not host.startswith("http://") and not host.startswith("https://"):
+                host = f"http://{host}"
             client = ollama.AsyncClient(host=host)
             response = await client.chat(
                 model=self.name,
                 messages=messages,
-                options={
-                    "temperature": temperature,
-                    "seed": random.randint(1, 2**31 - 1),
-                    "top_p": 0.9,
-                    "top_k": 40,
-                },
+                options={"temperature": temperature},
             )
             return {
                 "text": response.get("message", {}).get("content", ""),

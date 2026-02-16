@@ -93,7 +93,7 @@ for i in range(torch.cuda.device_count()):
 EOF
 
 # ---- Ollama environment ----
-export OLLAMA_HOST="127.0.0.1:11434"
+export OLLAMA_HOST="http://127.0.0.1:11434"
 export OLLAMA_NUM_PARALLEL=$CONCURRENT
 export OLLAMA_MAX_LOADED_MODELS=1
 export OLLAMA_NUM_GPU=999
