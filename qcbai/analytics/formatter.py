@@ -221,7 +221,7 @@ def create_result_entry(
             amount=parsed.get("amount"),
             iteration=idx + 1,
             response_time=raw.get("response_time", 0.0),
-            timestamp=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            timestamp=raw.get("timestamp", datetime.now().strftime("%Y-%m-%d %H:%M:%S")),
         ))
 
         if game_config.response_type == "binary":
