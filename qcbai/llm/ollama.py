@@ -1,4 +1,5 @@
 import os
+import random
 from typing import List, Dict, Any
 from qcbai.llm.base import ModelRunner
 from pathlib import Path
@@ -31,7 +32,12 @@ class OllamaModel(ModelRunner):
             response = ollama.chat(
                 model=self.name,
                 messages=messages,
-                options={"temperature": temperature},
+                options={
+                    "temperature": temperature,
+                    "seed": random.randint(1, 2**31 - 1),
+                    "top_p": 0.9,
+                    "top_k": 40,
+                },
             )
             return {
                 "text": response.get("message", {}).get("content", ""),
@@ -48,7 +54,12 @@ class OllamaModel(ModelRunner):
             response = await client.chat(
                 model=self.name,
                 messages=messages,
-                options={"temperature": temperature},
+                options={
+                    "temperature": temperature,
+                    "seed": random.randint(1, 2**31 - 1),
+                    "top_p": 0.9,
+                    "top_k": 40,
+                },
             )
             return {
                 "text": response.get("message", {}).get("content", ""),

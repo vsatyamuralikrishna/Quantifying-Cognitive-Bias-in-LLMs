@@ -2,6 +2,7 @@ import json
 import uuid
 import time
 import asyncio
+import random
 from pathlib import Path
 from typing import List
 from tqdm import tqdm
@@ -17,9 +18,10 @@ def load_prompt_files(prompt_dir: Path) -> List[Path]:
     return sorted(prompt_dir.glob("*.json"))
 
 
-async def _async_single_run(runner: ModelRunner, messages: list, temperature: float) -> dict:
+async def _async_single_run(runner: ModelRunner, messages: list, temperature: float, run_idx: int) -> dict:
     """Execute a single async LLM call. Used for concurrent batches."""
     start_time = time.time()
+    await asyncio.sleep(random.uniform(0.001, 0.01))
     output = await runner.arun_prompt(messages, temperature=temperature)
     end_time = time.time()
 
@@ -31,10 +33,11 @@ async def _async_single_run(runner: ModelRunner, messages: list, temperature: fl
         "reason": output.get("reason", ""),
         "response_time": round(end_time - start_time, 4),
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "run_index": run_idx,
     }
 
 
-def _sync_single_run(runner: ModelRunner, messages: list, temperature: float) -> dict:
+def _sync_single_run(runner: ModelRunner, messages: list, temperature: float, run_idx: int) -> dict:
     """Execute a single synchronous LLM call. Used for sequential mode."""
     start_time = time.time()
     output = runner.run_prompt(messages, temperature=temperature)
@@ -48,6 +51,7 @@ def _sync_single_run(runner: ModelRunner, messages: list, temperature: float) ->
         "reason": output.get("reason", ""),
         "response_time": round(end_time - start_time, 4),
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "run_index": run_idx,
     }
 
 
@@ -72,7 +76,7 @@ async def _run_concurrent_batch(
     async def _limited_run(idx: int) -> dict:
         async with semaphore:
             try:
-                return await _async_single_run(runner, messages, temperature)
+                return await _async_single_run(runner, messages, temperature, idx)
             except Exception as e:
                 return {
                     "id": str(uuid.uuid4()),
@@ -82,6 +86,7 @@ async def _run_concurrent_batch(
                     "reason": f"Error: {e}",
                     "response_time": 0.0,
                     "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+                    "run_index": idx,
                 }
 
     tasks = [_limited_run(i) for i in range(runs)]
@@ -113,8 +118,8 @@ def run_prompt_with_model(
     if max_concurrent <= 1:
         # Sequential (original behavior)
         responses = []
-        for _ in range(runs):
-            responses.append(_sync_single_run(runner, messages, temperature))
+        for i in range(runs):
+            responses.append(_sync_single_run(runner, messages, temperature, i))
     else:
         # Async concurrent execution
         try:
